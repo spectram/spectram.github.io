@@ -1,4 +1,5 @@
 ---
+permalink: /msc_thesis/
 title: Kinematics of neutral hydrogen in interacting galaxies in two groups from the MeerChoirs survey
 subtitle: >-
   We present a comprehensive kinematic analysis of the neutral hydrogen in two groups from the Choirs sample, observed with MeerKAT. Employing 3D tilted ring modeling, we extract the kinematic and geometric parameters of the discs of the galaxies. Through physically motivated Gaussian decomposition and kinematic tagging, we identify and characterize the anomalous gas largely arising from the interactions. 

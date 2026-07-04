@@ -1,4 +1,5 @@
 ---
+permalink: /contact/
 title: Contact & CV
 tagline: |-
   With lives so short and dreams so mighty,

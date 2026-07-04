@@ -1,4 +1,5 @@
 ---
+permalink: /updates/
 title: Updates
 tagline: |-
   The absurdity of it all; 

@@ -1,4 +1,5 @@
 ---
+permalink: /telescopes/
 title: Astronomer & Telescopes
 tagline: |-
   With lives so short and dreams so mighty,

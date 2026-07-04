@@ -1,4 +1,5 @@
 ---
+permalink: /research/
 title: Research Overview
 subtitle: >-
   I employ multi-wavelength, multi-technique spectroscopic observations, kinematic modeling, and hydrodynamic simulations to study the connection between galaxy disks and multi-phase gas across environments.
@@ -88,7 +89,6 @@ Encounters between galaxies can take the form of collisions, fly-bys, or mergers
 *PI: Moses Mogotsi, 2020 & 2022 Open Time accepted project*
 
 The MeerKAT campaign aims to study the impact of the group environment on galaxy evolution by mapping the cold gas in 15 nearby low-mass, late-type dominated, and gas-rich groups. The unparalleled combination of high sensitivity, resolution, and large field of view offered by MeerKAT makes it the optimal instrument to study HI in nearby galaxies and groups out to large radii, down to low column densities, and with a high resolution. As part of my MSc. dissertation, I developed a methodology to separate gas at anomalous velocities from HI discs using 3D tilted ring modeling, and physically motivated Gaussian decomposition and kinematic tagging. I applied the technique to characterize the HI distribution in two groups from the MeerChoirs survey. The analysis of the interactions (two major mergers and two minor mergers) revealed various intriguing phenomena, including anomalous gas, non-circular flows, disturbed rotation curves, warps, extraplanar gas, tidal tails and bridges. Using kinematic arguments to infer the motion of anomalous gas in the plane of the galaxies, I found indications of gas exchange between the interacting galaxies.
-<!-- You can read my thesis abstract and see some cool visualizations [here]({{< ref "/msc_thesis" >}}).  -->
 <div>
   <p class="read-more">
     <a class="read-more-link" href="/msc_thesis">Click here to read my MSc. thesis abstract and see some cool visualizations<span class="icon-arrow-right" aria-hidden="true"></span></a>
@@ -99,7 +99,6 @@ The MeerKAT campaign aims to study the impact of the group environment on galaxy
 *PI: Sriram Sankar, 2023 Open Time accepted project*
 
 Collisional Ring Galaxies (CRGs) are an intriguing class of galaxies that are the results of the passage of an intruder galaxy through the disc of a target galaxy. Star formation in CRGs has been explored previously but the neutral gas has been studied only in a small subset of these rare sources. MeerRings aims to exploit the capabilities of MeerKAT to perform the first resolved, deep, and systematic census of the neutral gas in a considerable sample of CRGs. MeerKAT's high sensitivity will enable the detection of HI expelled to the environment and the extended HI discs of the galaxies. This program also represents the first systematic investigation of anomalous gas resulting from a well-known class of interactions. The versatility of HI in tracing various gravitational and hydrodynamical processes operating at different scales, along with MeerKAT's capabilities and the unique set of processes affecting CRGs, allows us to investigate several important physical phenomena in galaxy evolution. We will also study the continuum and polarisation images to extract information about star formation and magnetic field. This campaign is in its nascency and the observations are ongoing. We are currently discussing the timeline for the first paper exploring the properties of a well-known CRG. I am reducing the HI data for this source.
-<!-- You can learn more about this project [here]({{< ref "/meerrings" >}}). -->
 <div>
   <p class="read-more">
     <a class="read-more-link" href="/meerrings">Click here to read more about MeerRings<span class="icon-arrow-right" aria-hidden="true"></span></a>

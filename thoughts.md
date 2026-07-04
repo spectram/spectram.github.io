@@ -1,4 +1,5 @@
 ---
+permalink: /thoughts/
 title: Thoughts
 img_path: images/thoughts-bg.jpg
 subtitle: Walk into the forest of thoughts, take all that you can carry into the realm of man

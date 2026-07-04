@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: /
 title: Astro-know-me!
 tagline: |- 
   On the day you are born, you are bestowed a phrase that
@@ -45,8 +47,6 @@ Briefly, disk galaxies such as the Milky Way are embedded in spherical gaseous m
     <a class="read-more-link" href="/contact">Click here to check out my publications list and CV<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
-<!-- If you would like to check out my publications list or my CV [click here]({{< ref "/contact" >}}). -->
-
 ---
 
 ### Brief research trajectory
@@ -57,32 +57,24 @@ I visited Tel Aviv to collaborate with [Dr. Jonathan Stern](https://www.sternjon
     <a class="read-more-link" href="/research">Click here to read more about this work<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
-<!-- You can read more about this work [here]({{< ref "/research" >}}) -->
-
 My MSc. dissertation supervised by Dr. Moses Mogotsi and Prof. Matthew A. Bershady, is titled "**Kinematics of neutral hydrogen in interacting galaxies in two groups from the MeerChoirs survey**". For this, I reduced interferometric data and analyzed the kinematics of the neutral hydrogen emission in two low-mass, late-type dominated groups featuring varying levels of interactions. Luckily, I got to work with what is **currently the most sensitive radio telescope for observing neutral hydrogen in the local universe**, [**MeerKAT**](https://en.wikipedia.org/wiki/MeerKAT), an [**SKA-mid**](https://www.skao.int/en/explore/telescopes/ska-mid) precursor. The manuscripts from this work are currently in preparation.
 <div>
   <p class="read-more">
     <a class="read-more-link" href="/msc_thesis">Click here to read my MSc. thesis abstract and see some cool visualizations<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
- <!-- but you can read a summary and see some cool visualizations [here]({{< ref "/msc_thesis" >}}). -->
-
 I am currently leading **MeerRings, a MeerKAT campaign**, to carry out the first resolved, deep, and systematic census of the neutral hydrogen and L-band continuum in a sample of eight Collisional Ring Galaxies (CRGs). It will also be the first systematic investigation of anomalous gas resulting from a well-known class of interactions. This campaign is in its nascency.
 <div>
   <p class="read-more">
     <a class="read-more-link" href="/meerrings">Click here to read more about MeerRings<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
-<!-- To read more about this project [click here]({{< ref "/meerrings" >}}). -->
-
 In my work with [Prof. Anand Narayanan](https://www.iist.ac.in/ess/anand) at the Indian Institute of Space Science and Technology (IIST, Kerala, India), I employed **UV/optical QSO absorption line spectroscopy** with archival data from the **Hubble Space Telescope** and **Keck Observatory** to study the small-scale physical and chemical properties of multi-phase gas in the extended environments around galaxies. This collaboration yielded three journal articles amidst the COVID-19 pandemic ([Pradeep, Sankar, et al. 2020](https://ui.adsabs.harvard.edu/abs/2020MNRAS.493..250P/abstract), [Sankar et al. 2020](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.4864S/abstract), [Sameer et al. 2022](https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.5796S/abstract)).
 <div>
   <p class="read-more">
     <a class="read-more-link" href="/research">Click here to read more about these works<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
-<!-- You can read more about these works [here]({{< ref "/research" >}}). -->
-
 <!--
 ---
 ### Brief technical experience
@@ -100,16 +92,12 @@ Aside from astrophysical research, I enjoy a range of activities such as: readin
     <a class="read-more-link" href="/sideprojects">Click here to read about some of my past side-projects<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
-<!-- To read about some of my past side-projects [click here]({{< ref "/sideprojects" >}}). -->
-
 I have filled this website with some of the poems that I have written over the years and some images from my gallery. I have also added some of the projects that I was able to bequeath life to through dedication and hard work. In other words, I am committing a small part of myself to a GitHub repository.
 <div>
   <p class="read-more">
     <a class="read-more-link" href="/research">Click here to read some of my poetry<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
-<!-- If you want to **Astro-know-me!** [click here]({{< ref "/thoughts" >}}). -->
-
 > Thoughts think me, thought I   
 But, I am but a thought  
 A hundred I exist  

@@ -4,38 +4,36 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A personal site (Sriram Sankar's academic/portfolio/blog site, sriramsankar.in) built with **Hugo** and deployed on **Netlify**. There is no `.git` directory and no `package.json` in this checkout — it's a pure Hugo project with no Node/npm build step.
-
-**Migration in progress:** the goal is to refactor this from Hugo to Jekyll so it can be deployed directly via GitHub Pages (no Netlify). Keep that target in mind — e.g. Jekyll's `_config.yml`, `_layouts`/`_includes`, and `_posts`/collections will replace the Hugo equivalents described below, and anything Netlify-specific (Identity widget, Netlify Forms, `netlify.toml`, the git-gateway CMS backend) will need a GitHub Pages-compatible replacement or removal.
+Sriram Sankar's personal academic/portfolio/blog site (sriramsankar.in), built with **Jekyll** and deployed via **GitHub Pages** (custom domain via the root `CNAME` file). It was migrated from Hugo/Netlify; the git history's early commits ("Initial commit of existing Hugo site", "Scaffold Jekyll site...") document that cutover and the Hugo→Jekyll field mappings if something looks unported.
 
 ## Commands
 
-- Build: `hugo` (this is the exact command Netlify runs — see `netlify.toml`). Output goes to `public/`.
-- Local dev server with drafts: `hugo server -D`
-- Netlify pins `HUGO_VERSION = "0.81.0"` in `netlify.toml` — match this version locally to avoid template/function incompatibilities (Hugo isn't installed in this environment; install it separately to build/preview).
-- No test suite, linter, or CI config exists in this repo.
+- Install deps: `bundle install`
+- Local dev server: `bundle exec jekyll serve` (add `--drafts` to include drafts)
+- Build only: `bundle exec jekyll build` — output goes to `_site/`
+- Uses the `github-pages` gem (see `Gemfile`), which pins Jekyll and plugin versions to match what GitHub Pages actually runs in production — don't add gems/plugins outside what that gem whitelists, or the GitHub-side build will diverge from local builds.
+- No test suite or linter exists in this repo.
 
 ## Architecture
 
-**Two-file site config split:**
-- `config.yaml` — Hugo build config: baseURL, taxonomies, markup (unsafe HTML in goldmark enabled), permalinks, related-content weights, sitemap settings.
-- `data/config.json` — site *content* config, exposed in templates as `.Site.Data.config`: site title, color `palette` name, header nav links, social links, footer text, and `domain`. Nav/social links are data-driven lists rendered by `layouts/partials/navigation.html`.
+**Two-file site config split** (mirrors the old Hugo config.yaml/data/config.json split, kept for continuity):
+- `_config.yml` — Jekyll build config: url/baseurl, collections, permalinks, plugins (`jekyll-sitemap`), and a `social.share.*` block (exposed as `site.social.share.*`, used by `_includes/socialshare.html`).
+- `_data/config.json` — site *content* config, exposed in templates as `site.data.config`: site title, color `palette` name, header nav/social links, footer text, and `domain`. Nav/social links are data-driven lists rendered by `_includes/navigation.html`.
 
-**Layout selection is front-matter-driven, not type-driven.** There's no `archetypes` or Hugo "type" convention in use — every content page sets a `layout:` field in front matter (e.g. `layout: post`, `layout: blog`, `layout: projects`, `layout: contact`, `layout: page`), which Hugo resolves against `layouts/_default/*.html`. When porting to Jekyll, this maps naturally to Jekyll's own `layout:` front matter key, but the actual template logic inside each `.html` file will need to be rewritten from Go templates to Liquid.
+**Layout selection is front-matter-driven.** Every page/collection doc sets an explicit `layout:` field (`post`, `blog`, `projects`, `contact`, `page`) resolved against `_layouts/*.html`. There's no reliance on Jekyll's directory-based defaults beyond the `defaults:` block in `_config.yml`, which only fills in `layout: post` for the two custom collections as a safety net.
 
-**Content sections and their listing pattern:**
-- `content/thoughts/` (poems/blog posts) and `content/sideprojects/` (project write-ups) are the two real content collections. Their index pages (`_index.md`) use `layout: blog` / `layout: projects`, and individual entries use `layout: post`.
-- `layouts/_default/blog.html` and `projects.html` fetch their entries by hand via `(.Site.GetPage "section" "/thoughts").Pages` / `"/sideprojects"` rather than using Hugo's normal section/list page context — this is a hardcoded-path pattern to be aware of if adding a new section.
-- `layouts/partials/list.html` + `layouts/partials/GetArticles.html` (which queries `where site.RegularPages "Type" "post"`) implement a different, paginated article-grid pattern with a `partialCached` call — this isn't wired into `blog.html`/`projects.html`'s actual rendering path today, so treat it as an alternate/in-progress listing implementation, not the live one, before extending it.
-- `layouts/_default/taxonomy.html` is yet a third near-duplicate of this same listing pattern, used for category/tag archive pages.
+**Content model:**
+- `_thoughts/` (poems/blog posts) and `_sideprojects/` (project write-ups) are custom Jekyll collections (`output: true`, permalink `/:collection/:path/`), not `_posts` — filenames are plain slugs (no `YYYY-MM-DD-` prefix), sorting/date display is handled manually in the layouts via `{{ site.thoughts | sort: "date" | reverse }}` etc. rather than Jekyll's automatic `_posts` chronological behavior.
+- `_layouts/blog.html` and `projects.html` render those two collections' index pages (`thoughts.md` / `sideprojects.md` at repo root) by iterating `site.thoughts` / `site.sideprojects` directly.
+- Root-level `.md` files (e.g. `contact.md`, `research.md`, `msc_thesis.md`, `index.md`) are plain Jekyll Pages, each with an explicit `permalink:` front matter field set to match the site's original clean URLs (e.g. `/contact/`) — Jekyll doesn't give plain pages clean URLs by default, so don't remove these `permalink:` lines without checking the URL still resolves the same way.
+- Category/tag **archive pages were intentionally dropped** in the Jekyll port (Hugo's `taxonomy.html` had no Jekyll equivalent ported) — `categories:` front matter still exists on content as metadata, but nothing renders an archive page from it. `robots.txt` still disallows `/tags/`/`/categories/` defensively even though nothing generates those paths today.
 
-**Front matter drives SEO/social meta directly**, not a fixed schema: each content page includes a `seo.extra` array of arbitrary `{name, value, keyName, relativeUrl}` objects, looped over in `layouts/_default/baseof.html` to emit `<meta>` tags (used for `og:*` and `twitter:*` tags today). `seo.metatitle`/`seo.description` set the title/description tags.
+**Front matter drives SEO/social meta directly**, not a fixed schema: each page includes a `seo.extra` array of arbitrary `{name, value, keyName, relativeUrl}` objects, looped over in `_layouts/default.html` to emit `<meta>` tags (`og:*`/`twitter:*` today). `seo.metatitle`/`seo.description` set the title/description tags. `relativeUrl: true` entries are resolved with Jekyll's `absolute_url` filter.
 
-**Styling:** single Sass entry point `assets/sass/main.scss`, compiled inline via Hugo Pipes (`resources.ToCSS`) directly in `baseof.html` — there is no separate CSS build tool. Partial stylesheets live in `assets/sass/imports/` (`_general`, `_header`, `_footer`, `_posts-pages`, `_palettes`, etc.). The `palette-{name}` class on `<body>` (from `data/config.json`'s `palette` field) is how `_palettes.scss` themes the site.
+**Styling:** `assets/css/main.scss` is the Sass entry point (needs the empty `---\n---` front-matter stub at the top so Jekyll's Sass converter processes it) — Jekyll's built-in `jekyll-sass-converter` compiles it, no separate CSS build tool. Partials live in `_sass/imports/` (`_general`, `_header`, `_footer`, `_posts-pages`, `_palettes`, etc.), imported by basename from `main.scss`. The `palette-{name}` class on `<body>` (from `_data/config.json`'s `palette` field) is how `_palettes.scss` themes the site.
 
-**KaTeX math rendering is opt-in per page** via a `math: true` front matter param (only `content/msc_thesis.md`, `research.md`, `meerrings.md` use it); it conditionally includes `layouts/partials/katex.html`, which pulls KaTeX from a CDN.
+**KaTeX math rendering is opt-in per page** via a `math: true` front matter param (`msc_thesis.md`, `research.md`, `meerrings.md`); it conditionally includes `_includes/katex.html`, which pulls KaTeX from a CDN.
 
-**Netlify-specific coupling to remove/replace during the Jekyll migration:**
-- `layouts/_default/baseof.html` loads the Netlify Identity widget script and redirects logged-in users to `/admin/`.
-- `layouts/_default/contact.html` renders a form with `data-netlify="true" data-netlify-honeypot="bot-field"` (Netlify Forms) posting to `/success`, backed by `content/contact.md` and `content/success.md`.
-- `static/admin/` is a Netlify CMS (Decap CMS) admin UI; `static/admin/config.yml` defines the `thoughts` and `sideprojects` collections (with a `git-gateway` backend) and must be kept in sync with whatever front-matter fields the templates actually read — if front matter fields change, update both the templates *and* this CMS schema (or drop the CMS entirely if it won't be carried over to Jekyll/GitHub Pages).
+**Contact form uses Formspree**, not a self-hosted backend (GitHub Pages can't run server-side form handling): `_layouts/contact.html` posts to a Formspree endpoint. **The endpoint is currently a `YOUR_FORM_ID` placeholder** — sign up at formspree.io and replace it before the form is live. On submit it redirects to `/success/` (`success.md`) via Formspree's `_next` hidden field, replicating the old Netlify Forms redirect behavior.
+
+**No CMS admin UI.** The old Netlify CMS (Decap) admin at `static/admin/` relied on Netlify Identity + git-gateway, neither of which exists on GitHub Pages, and was dropped rather than reconfigured. Content is edited directly as Markdown files in the repo (or via GitHub's web editor).

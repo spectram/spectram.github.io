@@ -1,4 +1,5 @@
 ---
+permalink: /meerrings/
 title: MeerRings
 subtitle: >-
   MeerRings will be the first resolved, deep, and systematic census of the neutral gas in a considerable sample of CRGs. It will also be the first systematic investigation of anomalous gas resulting from a well-known class of interactions.

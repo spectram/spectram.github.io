@@ -1,4 +1,5 @@
 ---
+permalink: /success/
 title: Thank You!
 layout: page
 ---
