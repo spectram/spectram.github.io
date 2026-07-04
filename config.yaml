@@ -1,0 +1,35 @@
+title: Sriram Sankar
+baseURL: https://sriramsankar.in/
+taxonomies:
+  category: "categories"
+  tag: "tags"
+disableKinds:
+  - RSS
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+permalinks:
+    categories: "/:slug/"
+Params:
+  social:
+    share:
+      facebook: true
+      linkedin: true
+      twitter: true
+      whatsapp: false
+      email: true
+related:
+  threshold: 0
+  includeNewer: false
+  toLower: false
+  indices:
+  - name: categories
+    weight: 100
+  - name: date
+    weight: 10
+sitemap:
+  changeFreq: ""
+  filename: sitemap.xml
+  priority: -1
+enableRobotsTXT: true

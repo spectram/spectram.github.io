@@ -1,0 +1,71 @@
+{
+    "title": "Sriram Sankar",
+    "palette": "blue",
+    "favicon": "favicon.ico",
+    "header": {
+        "title": "Sriram Sankar",
+        "tagline": "Walk into the forest of thoughts, take all that you can carry into the realm of man",
+        "logo_img": "images/srs-logo-white.svg",
+        "logo_img_alt": "Sriram Sankar",
+        "background_img": "images/header-bg.jpg",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "About",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "Research",
+                "url": "/research",
+                "style": "link"
+            },
+            {
+                "label": "Updates",
+                "url": "/updates",
+                "style": "link"
+            },
+            {
+                "label": "Thoughts",
+                "url": "/thoughts",
+                "style": "link"
+            },
+            {
+                "label": "Side Projects",
+                "url": "/sideprojects",
+                "style": "link"
+            },
+            {
+                "label": "Contact & CV",
+                "url": "/contact",
+                "style": "link"
+            },
+            {
+                "label": "Telescopes",
+                "url": "/telescopes",
+                "style": "link"
+            }
+        ],
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "GitHub",
+                "url": "https://github.com/spectram",
+                "style": "icon",
+                "icon_class": "github",
+                "new_window": true
+            },
+            {
+                "label": "Medium",
+                "url": "https://sriram-sankar.medium.com/",
+                "style": "icon",
+                "icon_class": "medium",
+                "new_window": true
+            }
+        ]
+    },
+    "footer": {
+        "content": "Hi there! Welcome to my little creative repository on the internet. That's right! you are looking at a JAMSTACK site hosted on a GitHub repo and deployed through Netlify."
+    },
+    "domain": "https://sriramsankar.in"
+}

@@ -1,0 +1,45 @@
+/**
+ * Grid Feed
+ */
+
+.body-feed {
+  background: #001628;
+  color: #777;
+  padding: 4em;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+hr { /*dummy content*/
+  /*height: 6px;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);*/
+} 
+
+hr:last-child {  /*dummy content*/
+  margin-right: 60%;
+}
+
+hr.image-feed { /*dummy content*/
+  padding-bottom: 50%;
+} 
+
+.page-feed {
+  padding: 1em;
+  /*background: #cecece;*/
+  max-width: 1100px;
+}
+
+.archive-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1em;
+}
+
+.article-feed {
+  padding: 1em;
+  background: #fff;
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.1),
+    0 20px 20px rgba(0, 0, 0, 0.05);
+}

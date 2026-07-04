@@ -1,0 +1,25 @@
+{{ define "content" }}
+
+  {{ $include_dict := dict "Site" .Site "page" . "image" .Site.Data.config.header.background_img }}
+  {{ partial "header.html" $include_dict }}
+
+  <div id="content" class="site-content">
+    <main id="main" class="site-main inner">
+
+        <Section className="section narrow">
+        {{ partial "list.html" . }}
+            <div class="articles-paginator">
+    
+               </div>
+        </Section>
+
+        <div class="articles-gradient"></div>
+        </div><!-- .post-feed -->
+
+    </main><!-- .site-main -->
+
+    {{ partial "footer.html" $include_dict }}
+
+  </div><!-- .site-content -->
+
+{{ end }}
