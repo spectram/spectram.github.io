@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% if page.hide_header == true %}
+  {% include header_alt.html %}
+{% else %}
+  {% include header.html image=page.content_img_path tagline=page.tagline %}
+{% endif %}
+
+<div id="content" class="site-content">
+  <main id="main" class="site-main inner">
+
+    <article class="post post-full">
+      <header class="post-header">
+        {% include breadcrumb.html %}
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+          Published on <time class="published"
+            datetime="{{ page.date | date: '%Y-%m-%d %H:%M' }}">{{ page.date | date: '%B %d, %Y' }}</time>
+          </div>
+      </header><!-- .post-header -->
+      {% if page.subtitle %}
+      <div class="post-subtitle">
+        {{ page.subtitle }}
+      </div><!-- .post-subtitle -->
+      {% endif %}
+      <div class="post-content">
+        {{ content }}
+      </div><!-- .post-content -->
+    </article><!-- .post -->
+    {% include socialshare.html %}
+  </main><!-- .site-main -->
+
+  {% include footer.html %}
+
+</div><!-- .site-content -->

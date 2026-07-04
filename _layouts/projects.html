@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% include header.html image=page.img_path tagline=page.tagline %}
+
+<div id="content" class="site-content">
+  <main id="main" class="site-main inner">
+
+    <div class="post-feed, page-feed">
+      <article class="archive-feed">
+        {% assign posts_sorted = site.sideprojects | sort: "date" | reverse %}
+        {% for post in posts_sorted %}
+
+            <article class="article-feed">
+                <header class="post-header">
+                <h2 class="post-title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h2>
+                <div class="post-meta">
+                    Published on <time class="published"
+                    datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%B %d, %Y' }}</time>
+                </div>
+                </header><!-- .post-header -->
+                {% if post.thumb_img_path %}
+                <a class="post-thumbnail" href="{{ post.url | relative_url }}">
+                <img class="thumbnail, image-feed" src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.thumb_img_alt }}" />
+                </a>
+                {% endif %}
+                <div class="post-content">
+                <p>{{ post.excerpt }}</p>
+                </div><!-- .post-content -->
+                {% if page.has_more_link and page.more_link_text %}
+                <p class="read-more">
+                <a class="read-more-link" href="{{ post.url | relative_url }}">{{ page.more_link_text }} <span class="icon-arrow-right" aria-hidden="true"></span></a>
+                </p>
+                {% endif %}
+            </article><!-- .post -->
+
+        {% endfor %}
+      </article><!-- .archive -->
+    </div><!-- .post-feed -->
+
+  </main><!-- .site-main -->
+
+  {% include footer.html %}
+
+</div><!-- .site-content -->

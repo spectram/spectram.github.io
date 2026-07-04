@@ -1,0 +1,48 @@
+title: Sriram Sankar
+url: "https://sriramsankar.in"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+collections:
+  thoughts:
+    output: true
+    permalink: /:collection/:path/
+  sideprojects:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "thoughts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "sideprojects"
+    values:
+      layout: "post"
+
+# Mirrors the old Hugo config.yaml's `Params.social.share` block,
+# read by _includes/socialshare.html as site.social.share.*
+social:
+  share:
+    facebook: true
+    linkedin: true
+    twitter: true
+    whatsapp: false
+    email: true
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - vendor
+  - node_modules

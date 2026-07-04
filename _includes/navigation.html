@@ -1,0 +1,44 @@
+{% if site.data.config.header.has_nav or site.data.config.header.has_social %}
+<nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+  <div class="site-nav-wrap">
+    <div class="site-nav-inside">
+
+      {% if site.data.config.header.has_nav %}
+      <ul class="menu">
+        {% assign current_path = page.url | remove: "/" %}
+        {% for action in site.data.config.header.nav_links %}
+          {% assign action_path = action.url | remove: "/" %}
+          <li class="menu-item{% if current_path == action_path %} current-menu-item{% endif %}">
+            <a href="{{ action.url | relative_url }}"
+              {% if action.new_window %} target="_blank"{% endif %}
+              {% if action.new_window or action.no_follow %} rel="{% if action.new_window %}noopener {% endif %}{% if action.no_follow %}nofollow{% endif %}"{% endif %}>{{ action.label }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if site.data.config.header.has_social %}
+      <div class="social-links">
+        {% for action in site.data.config.header.social_links %}
+        {% if action %}
+        <a href="{{ action.url | relative_url }}"
+          {% if action.new_window %} target="_blank"{% endif %}
+          {% if action.new_window or action.no_follow %} rel="{% if action.new_window %}noopener {% endif %}{% if action.no_follow %}nofollow{% endif %}"{% endif %}
+          {% if action.style == "icon" %}class="button-circle"{% endif %}>
+          {% if action.style == "icon" and action.icon_class %}
+            {% include icon.html icon=action.icon_class %}
+            <span class="screen-reader-text">{{ action.label }}</span>
+          {% else %}
+          {{ action.label }}
+          {% endif %}
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div><!-- .social-links -->
+      {% endif %}
+
+    </div><!-- .site-nav-inside -->
+  </div><!-- .site-nav-wrap -->
+</nav><!-- .site-navigation -->
+<button id="menu-toggle" class="menu-toggle"><span class="screen-reader-text">Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+{% endif %}

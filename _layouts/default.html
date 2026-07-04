@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <title>{% if page.seo.metatitle %}{{ page.seo.metatitle }}{% else %}{{ page.title }} | {{ site.data.config.title }}{% endif %}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="{{ page.seo.description | default: '' }}" />
+        {% if page.math %}{% include katex.html %}{% endif %}
+        {% for meta in page.seo.extra %}
+          {% assign key_name = meta.keyName | default: "name" %}
+          {% if meta.relativeUrl %}
+            <meta {{ key_name }}="{{ meta.name }}" content="{{ meta.value | absolute_url }}">
+          {% else %}
+            <meta {{ key_name }}="{{ meta.name }}" content="{{ meta.value }}">
+          {% endif %}
+        {% endfor %}
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+        {% if site.data.config.favicon %}
+        {% include favicon.html %}
+        {% endif %}
+        <link rel="canonical" href="{{ page.url | absolute_url }}"/>
+
+    </head>
+    <body class="palette-{{ site.data.config.palette }}">
+
+        <div id="page" class="site">
+
+          {{ content }}
+
+        </div><!-- .site -->
+        <!-- Scripts -->
+
+        <script src="{{ '/js/plugins.js' | relative_url }}"></script>
+        <script src="{{ '/js/main.js' | relative_url }}"></script>
+
+    </body>
+</html>
