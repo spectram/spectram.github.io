@@ -7,7 +7,6 @@ excerpt: I trained a team of 50 students in various aspects of website building
   creation, etc.
 categories: volunteering
 date: '2022-06-05'
-slug: mech-community
 thumb_img_path: images/mechfisat.jpg
 content_img_path: images/mech.jpg
 thumb_img_alt: Mechanical Engineering Students

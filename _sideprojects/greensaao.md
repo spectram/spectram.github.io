@@ -9,7 +9,6 @@ excerpt: >-
   a prism with a mind of its own, a telescope with a sustainable response function, 
   a pair of lenses with a green filter. 
 date: '2022-06-08'
-slug: greensaao
 categories: volunteering
 thumb_img_path: images/greensaao.jpg
 thumb_img_alt: Green SAAO - A sustainability movement
