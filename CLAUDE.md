@@ -20,7 +20,7 @@ Sriram Sankar's personal academic/portfolio/blog site (sriramsankar.in), built w
 - `_config.yml` — Jekyll build config: url/baseurl, collections, permalinks, plugins (`jekyll-sitemap`), and a `social.share.*` block (exposed as `site.social.share.*`, used by `_includes/socialshare.html`).
 - `_data/config.json` — site *content* config, exposed in templates as `site.data.config`: site title, color `palette` name, header nav/social links, footer text, and `domain`. Nav/social links are data-driven lists rendered by `_includes/navigation.html`.
 
-**Layout selection is front-matter-driven.** Every page/collection doc sets an explicit `layout:` field (`post`, `blog`, `projects`, `contact`, `page`) resolved against `_layouts/*.html`. There's no reliance on Jekyll's directory-based defaults beyond the `defaults:` block in `_config.yml`, which only fills in `layout: post` for the two custom collections as a safety net.
+**Layout selection is front-matter-driven.** Every page/collection doc sets an explicit `layout:` field (`post`, `blog`, `projects`, `page`) resolved against `_layouts/*.html`. There's no reliance on Jekyll's directory-based defaults beyond the `defaults:` block in `_config.yml`, which only fills in `layout: post` for the two custom collections as a safety net.
 
 **Content model:**
 - `_thoughts/` (poems/blog posts) and `_sideprojects/` (project write-ups) are custom Jekyll collections (`output: true`, permalink `/:collection/:path/`), not `_posts` — filenames are plain slugs (no `YYYY-MM-DD-` prefix), sorting/date display is handled manually in the layouts via `{{ site.thoughts | sort: "date" | reverse }}` etc. rather than Jekyll's automatic `_posts` chronological behavior.
@@ -34,6 +34,6 @@ Sriram Sankar's personal academic/portfolio/blog site (sriramsankar.in), built w
 
 **KaTeX math rendering is opt-in per page** via a `math: true` front matter param (`msc_thesis.md`, `research.md`, `meerrings.md`); it conditionally includes `_includes/katex.html`, which pulls KaTeX from a CDN.
 
-**Contact form uses Formspree**, not a self-hosted backend (GitHub Pages can't run server-side form handling): `_layouts/contact.html` posts to a Formspree endpoint. **The endpoint is currently a `YOUR_FORM_ID` placeholder** — sign up at formspree.io and replace it before the form is live. On submit it redirects to `/success/` (`success.md`) via Formspree's `_next` hidden field, replicating the old Netlify Forms redirect behavior.
+**`contact.md` has no form** — it uses the plain `page` layout and embeds the CV PDF (`ssankar_Nov2023_cv.pdf`) directly via an `<iframe>` instead. There's no form backend/Formspree wiring in this repo; if a contact form gets reintroduced later, remember GitHub Pages can't run server-side form handling (the old Netlify Forms integration was removed during the Hugo→Jekyll migration).
 
 **No CMS admin UI.** The old Netlify CMS (Decap) admin at `static/admin/` relied on Netlify Identity + git-gateway, neither of which exists on GitHub Pages, and was dropped rather than reconfigured. Content is edited directly as Markdown files in the repo (or via GitHub's web editor).

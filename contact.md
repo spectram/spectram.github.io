@@ -6,36 +6,9 @@ tagline: |-
   we are humble folks rich with aspirations
   that one day we may seize
 img_path: images/contact-bg.jpg
-form_id: contactForm
-form_action: /success
-form_fields:
-  - input_type: text
-    name: name
-    label: Name
-    default_value: Your name
-    is_required: true
-  - input_type: email
-    name: email
-    label: Email
-    default_value: Your email address
-    is_required: true
-  - input_type: text
-    name: subject
-    label: Subject
-    default_value: Empty
-  - input_type: textarea
-    name: message
-    label: Message
-    default_value: Your message
-  - input_type: checkbox
-    name: consent
-    label: >-
-      I understand that this form is storing my submitted information so I can
-      be contacted.
-submit_label: Send Message
 seo:
   metatitle: Get in Touch | Sriram Sankar
-  description: Contact Sriram via email or by filling out a contact form. 
+  description: Contact Sriram via email, and view his CV.
   extra:
     - name: 'og:type'
       value: website
@@ -44,7 +17,7 @@ seo:
       value: Get in Touch with Sriram Sankar
       keyName: property
     - name: 'og:description'
-      value: Contact Sriram via email or by filling out a contact form.
+      value: Contact Sriram via email, and view his CV.
       keyName: property
     - name: 'og:image'
       value: images/contact.jpg
@@ -55,11 +28,11 @@ seo:
     - name: 'twitter:title'
       value: Get in Touch with Sriram Sankar
     - name: 'twitter:description'
-      value: Contact Sriram via email or by filling out a contact form.
+      value: Contact Sriram via email, and view his CV.
     - name: 'twitter:image'
       value: images/contact.jpg
       relativeUrl: true
-layout: contact
+layout: page
 ---
 
 <table>
@@ -81,8 +54,6 @@ layout: contact
   </tr>
 </table>
 
-##### [Download my latest CV as a PDF (updated on 26 Nov 2023)](/ssankar_Nov2023_cv.pdf)
-
 ---
 
 ##### Publications record
@@ -97,10 +68,12 @@ layout: contact
   </div>
 </div>
 
---- 
+---
 
-# Get In Touch
+##### [CV (updated on 26 Nov 2023) — download as PDF](/ssankar_Nov2023_cv.pdf)
 
-<p>
-You can also fill out the form below to get in touch.
-</p>
+<div class="cv-embed">
+  <iframe src="/ssankar_Nov2023_cv.pdf" title="Sriram Sankar's CV" width="100%" height="900" style="border: none;">
+    <p>Your browser doesn't support embedded PDFs. <a href="/ssankar_Nov2023_cv.pdf">Download the CV</a> instead.</p>
+  </iframe>
+</div>
