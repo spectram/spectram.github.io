@@ -65,7 +65,7 @@
         ]
     },
     "footer": {
-        "content": "Hi there! Welcome to my little creative repository on the internet. That's right! you are looking at a JAMSTACK site hosted on a GitHub repo and deployed through Netlify."
+        "content": "Hi there! Welcome to my little creative repository on the internet. That's right! you are looking at a JAMSTACK site hosted on a GitHub repo and deployed through GitHub Pages."
     },
     "domain": "https://sriramsankar.in"
 }
