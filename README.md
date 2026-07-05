@@ -1,1 +1,1 @@
-# ✨ astrospectram ✨
+# Personal website
