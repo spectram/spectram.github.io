@@ -12,6 +12,7 @@ Sriram Sankar's personal academic/portfolio/blog site (sriramsankar.in), built w
 - Local dev server: `bundle exec jekyll serve` (add `--drafts` to include drafts)
 - Build only: `bundle exec jekyll build` — output goes to `_site/`
 - Uses the `github-pages` gem (see `Gemfile`), which pins Jekyll and plugin versions to match what GitHub Pages actually runs in production — don't add gems/plugins outside what that gem whitelists, or the GitHub-side build will diverge from local builds.
+- The `Gemfile` also explicitly pins `csv`/`base64`/`bigdecimal`/`logger`/`webrick` — Ruby 3.4+ dropped these from its default gems, but the `github-pages` gem's older pinned Jekyll still expects them present, so local builds fail without them.
 - No test suite or linter exists in this repo.
 
 ## Architecture
