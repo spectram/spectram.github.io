@@ -1,7 +1,39 @@
-{% comment %}Telescope photo gallery, moved from the old /telescopes/ page; rendered at the bottom of the Community page.{% endcomment %}
-
-### BREAKING NEWS! Astronomer pictured next to telescopes. {#telescopes}
-
+---
+title: Astronomer & Telescopes
+subtitle: BREAKING NEWS! Astronomer pictured next to telescopes.
+excerpt: >-
+  BREAKING NEWS! Astronomer pictured next to telescopes. If not here, where else can I put these pictures?
+date: '2023-08-31'
+thumb_img_path: images/telescopes/sriram_mkt_2022.jpg
+thumb_img_alt: Sriram in front of the MeerKAT telescope in July 2022
+content_img_path: images/pub+cv-bg.jpg
+categories: photos
+seo:
+  metatitle: Astronomer & Telescopes | Sriram Sankar
+  description: BREAKING NEWS! Astronomer pictured next to telescopes.
+  extra:
+    - name: 'og:type'
+      value: article
+      keyName: property
+    - name: 'og:title'
+      value: Astronomer & Telescopes | Sriram Sankar
+      keyName: property
+    - name: 'og:image'
+      value: images/telescopes/sriram_mkt_2022.jpg
+      keyName: property
+      relativeUrl: true
+    - name: 'twitter:card'
+      value: summary_large_image
+    - name: 'twitter:image'
+      value: images/telescopes/sriram_mkt_2022.jpg
+      relativeUrl: true
+tagline: |-
+  With lives so short and dreams so mighty,
+  we are humble folks rich with aspirations
+  that one day we may seize
+layout: post
+socialshare: true
+---
 If not here, where else can I put these pictures?
 
 |![Picture with SALT taken on a Sutherland trip in October 2021](/images/telescopes/sriram_salt.jpg)|
@@ -19,5 +51,3 @@ If not here, where else can I put these pictures?
 |![Picture in front of the historic Dwingeloo 25-m radio telescope taken in September 2022](/images/telescopes/sriram_dwingeloo.jpg)|![Picture clicked on a full-moon hike up the lion's head in Cape Town in March 2023](/images/telescopes/sriram_lionshead.jpg)|
 |:--:|:--:|
 |*Picture in front of the historic 25 m [Dwingeloo radio observatory](https://en.wikipedia.org/wiki/Dwingeloo_Radio_Observatory) taken in September 2022*|*Picture with an outreach telescope clicked on a full-moon hike up the [lion's head](https://en.wikipedia.org/wiki/Lion%27s_Head_(Cape_Town)) in Cape Town in March 2023*|
-
----
