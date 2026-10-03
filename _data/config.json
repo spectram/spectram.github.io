@@ -26,16 +26,6 @@
                 "style": "link"
             },
             {
-                "label": "Thoughts",
-                "url": "/thoughts",
-                "style": "link"
-            },
-            {
-                "label": "Side Projects",
-                "url": "/sideprojects",
-                "style": "link"
-            },
-            {
                 "label": "Contact & CV",
                 "url": "/contact",
                 "style": "link"
@@ -43,6 +33,16 @@
             {
                 "label": "Telescopes",
                 "url": "/telescopes",
+                "style": "link"
+            },
+            {
+                "label": "Thoughts",
+                "url": "/thoughts",
+                "style": "link"
+            },
+            {
+                "label": "Side Projects",
+                "url": "/sideprojects",
                 "style": "link"
             }
         ],
@@ -56,10 +56,17 @@
                 "new_window": true
             },
             {
-                "label": "Medium",
-                "url": "https://sriram-sankar.medium.com/",
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sankarsriram",
                 "style": "icon",
-                "icon_class": "medium",
+                "icon_class": "linkedin",
+                "new_window": true
+            },
+            {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0002-7607-081X",
+                "style": "icon",
+                "icon_class": "orcid",
                 "new_window": true
             }
         ]

@@ -35,5 +35,6 @@ seo:
     - name: 'twitter:image'
       value: images/thoughts-bg.jpg
       relativeUrl: true
+medium_url: https://sriram-sankar.medium.com/
 layout: blog
 ---
