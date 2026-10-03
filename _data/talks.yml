@@ -1,0 +1,83 @@
+# Talks and presentations rendered by talks.md (newest first).
+talks:
+  - date: Jul 2026
+    type: Talk
+    title: "Hot accretion onto spiral galaxies: the origin of extended and warped HI discs"
+    event: The Many Scales of Galaxy Environments
+    event_url: https://astro.dur.ac.uk/ascona/
+    place: Ascona, Switzerland
+  - date: Apr 2026
+    type: Talk
+    title: "Hot accretion onto spiral galaxies: the origin of extended and warped HI discs"
+    event: SKA Science Meeting
+    place: ICRAR, Perth
+  - date: Feb 2026
+    type: Poster
+    title: "Optimising research data workflows with object storage environments"
+    event: Pawsey Summer Internship showcase (virtual)
+    links:
+      - label: Video
+        url: https://www.youtube.com/watch?v=NMZY2zVEdrI
+  - date: Jun 2024
+    type: Talk
+    title: "Tracing anomalous gas across phases, galaxies, and environments"
+    event: Astronomical Society of Australia Hub Day
+  - date: Jun 2024
+    type: Talk
+    title: "Tracing anomalous gas across phases, galaxies, and environments"
+    event: ASTRO 3D Science Legacy Meeting
+    event_url: https://astro3d.org.au/science-goals/2024-science-legacy-meeting-colloquia/
+    place: Sydney
+  - date: Jul 2023
+    type: Colloquium
+    title: "Anomalous gas safari: insights from MeerKAT's view of galaxy interactions"
+    event: South African Astronomical Observatory
+    place: Cape Town
+  - date: Mar 2023
+    type: Talk
+    title: "Anomalous gas safari: insights from MeerKAT's view of galaxy interactions"
+    event: SKA Pathfinder HI Survey Coordination Committee (PHISCC 2023)
+    event_url: https://www.astro.rug.nl/~phiscc2023/index.php
+    place: Cape Town
+  - date: Sep 2022
+    type: Lunch talk
+    title: "Neutral gas kinematics of interacting galaxies in two groups"
+    event: Kapteyn Astronomical Institute, University of Groningen
+    event_url: https://www.astro.rug.nl/
+    place: Groningen, the Netherlands
+  - date: Sep 2022
+    type: Talk
+    title: "Neutral gas kinematics of interacting galaxies in two groups"
+    event: What Matter(s) Around Galaxies (WMAG 2022)
+    event_url: https://sites.google.com/unimib.it/gas2022/home
+    place: Italian Alps
+  - date: Jul 2022
+    type: Talk, prize winner
+    title: Best MSc oral presentation, Astrophysics track
+    event: Annual Conference of the South African Institute of Physics (SAIP 2022)
+    event_url: https://events.saip.org.za/event/225/overview
+  - date: Mar 2022
+    type: Short talk
+    title: Contributed short presentation
+    event: African Astronomical Society annual conference (AfAS 2022)
+    event_url: https://www.africanastronomicalsociety.org/afas2022-ga/
+    links:
+      - label: Abstract
+        url: https://ui.adsabs.harvard.edu/abs/2022afas.confE..64S/abstract
+
+schools:
+  - name: European Radio Interferometry School (ERIS 2022)
+    url: https://www.jive.eu/eris2022/index.php
+    detail: ASTRON and JIVE, the Netherlands, Sep 2022
+  - name: STScI workshop on large-volume spectroscopic analyses
+    url: https://www.stsci.edu/contents/events/stsci/2022/march/large-volume-spectroscopic-analyses-of-agn-and-star-forming-galaxies-in-the-era-of-jwst
+    detail: Virtual, Mar 2022
+  - name: African Radio Interferometry Winter School (ARIWS 2021)
+    url: https://www.sarao.ac.za/african-radio-interferometry-winter-school/
+    detail: SARAO, virtual, Jun 2021
+  - name: ESCAPE summer school on data science for astrophysics
+    url: https://escape2020.github.io/school2021/
+    detail: Virtual, Jun 2021
+  - name: KITP programme on the Fundamentals of Gaseous Halos
+    url: https://www.kitp.ucsb.edu/activities/halo21
+    detail: Virtual, Jan to Mar 2021
