@@ -21,6 +21,26 @@
                 "style": "link"
             },
             {
+                "label": "Publications",
+                "url": "/publications",
+                "style": "link"
+            },
+            {
+                "label": "Talks",
+                "url": "/talks",
+                "style": "link"
+            },
+            {
+                "label": "Computing",
+                "url": "/computing",
+                "style": "link"
+            },
+            {
+                "label": "Community",
+                "url": "/sideprojects",
+                "style": "link"
+            },
+            {
                 "label": "Updates",
                 "url": "/updates",
                 "style": "link"
@@ -38,11 +58,6 @@
             {
                 "label": "Thoughts",
                 "url": "/thoughts",
-                "style": "link"
-            },
-            {
-                "label": "Side Projects",
-                "url": "/sideprojects",
                 "style": "link"
             }
         ],
@@ -72,7 +87,7 @@
         ]
     },
     "footer": {
-        "content": "Hi there! Welcome to my little creative repository on the internet. That's right! you are looking at a JAMSTACK site hosted on a GitHub repo and deployed through GitHub Pages."
+        "content": "Built with Jekyll and hosted on GitHub Pages."
     },
     "domain": "https://sriramsankar.in"
 }

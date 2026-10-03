@@ -23,6 +23,7 @@
         {% include favicon.html %}
         {% endif %}
         <link rel="canonical" href="{{ page.url | absolute_url }}"/>
+        {% if page.url == "/" %}{% include person-jsonld.html %}{% endif %}
 
     </head>
     <body class="palette-{{ site.data.config.palette }}">

@@ -2,7 +2,7 @@
   {% if site.data.config.footer.content or site.data.config.footer.links %}
   <div class="site-footer-inside">
     {% if site.data.config.footer.content %}
-    <span class="copyright">{{ site.data.config.footer.content }}</span>
+    <span class="copyright">© {{ site.time | date: "%Y" }} Sriram Sankar · Last updated {{ site.time | date: "%B %Y" }} · {{ site.data.config.footer.content }}</span>
     {% endif %}
     {% for link in site.data.config.footer.links %}
       <a href="{{ link.url | relative_url }}" {% if link.new_window %}target="_blank" rel="noopener"
