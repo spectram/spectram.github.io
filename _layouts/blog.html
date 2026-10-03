@@ -7,12 +7,6 @@ layout: default
 <div id="content" class="site-content">
   <main id="main" class="site-main inner">
 
-    {% if page.medium_url %}
-    <p class="read-more">
-      <a class="read-more-link" href="{{ page.medium_url }}" target="_blank" rel="noopener">More of my writing on Medium <span class="icon-arrow-right" aria-hidden="true"></span></a>
-    </p>
-    {% endif %}
-
     <div class="post-feed, page-feed">
       <article class="archive-feed">
         {% assign posts_sorted = site.thoughts | sort: "date" | reverse %}
@@ -44,6 +38,12 @@ layout: default
         {% endfor %}
       </article><!-- .archive -->
     </div><!-- .post-feed -->
+
+    {% if page.medium_url %}
+    <p class="read-more">
+      <a class="read-more-link" href="{{ page.medium_url }}" target="_blank" rel="noopener">More of my writing on Medium <span class="icon-arrow-right" aria-hidden="true"></span></a>
+    </p>
+    {% endif %}
 
   </main><!-- .site-main -->
 

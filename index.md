@@ -40,13 +40,6 @@ layout: page
 
 <p class="sr-lead">HI astrophysicist bridging simulations and MeerKAT observations, building toward SKA-Mid.</p>
 
-<div class="sr-stats">
-  <div class="sr-stat"><span class="num">6</span><span class="lbl">refereed papers</span></div>
-  <div class="sr-stat"><span class="num">5</span><span class="lbl">h-index</span></div>
-  <div class="sr-stat"><span class="num">90+ h</span><span class="lbl">of MeerKAT and SALT time won as PI</span></div>
-  <div class="sr-stat"><span class="num">2</span><span class="lbl">SKA Regional Centre prototypes used for MeerKAT data reduction</span></div>
-</div>
-
 <div class="sr-cards">
   <div class="sr-card">
     <h4>Theory and simulations</h4>
