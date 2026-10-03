@@ -70,51 +70,9 @@ Galaxies like the Milky Way would exhaust their gas within a few billion years, 
 
 ---
 
-### Theory and simulations
-
-With [Prof. Jonathan Stern](https://www.sternjon.sites.tau.ac.il/) at Tel Aviv University, I combined analytic calculations with idealised hydrodynamic simulations to show that the hot (~10<sup>6</sup> K) atmosphere of a spiral galaxy continuously condenses onto a cool (~10<sup>4</sup> K) disc, and that a tilt between the atmosphere and the disc produces an extended, warped outer HI disc ([Sankar et al. 2026a, *MNRAS* 549](https://doi.org/10.1093/mnras/stag1059)). The mechanism explains why warps are so common and long-lived, and it turns an observed warp into a measurement of the hot atmosphere.
-
-I forward-modelled six Milky Way-mass FIRE-2 galaxies into survey-matched HI cubes, tracking the simulation particles behind every spectrum, to measure how much of the anomalous gas a standard extraction recovers (Sankar et al. 2026b, to be submitted to *MNRAS*). At ICRAR, I host the Computational Theory Group.
-<!-- As a member of the [FIRE](https://fire.northwestern.edu/) collaboration, -->
-
-<div>
-  <p class="read-more">
-    <a class="read-more-link" href="/research">Click here to read more about this work<span class="icon-arrow-right" aria-hidden="true"></span></a>
-  </p>
-</div>
-
-### Observations
-
-I am PI and technical lead of [**MeerRings**](/meerrings), a MeerKAT programme that maps HI in eight collisional ring galaxies, seven observed in 55 hours of new MeerKAT time and one from the archive. For my MSc at the South African Astronomical Observatory (SAAO) and the University of Cape Town, supervised by Dr. Moses Mogotsi and Prof. Matthew A. Bershady, I developed a method that combines 3D tilted-ring modelling, Gaussian decomposition, and kinematic tagging to separate anomalous gas from rotating discs, and applied it to interacting galaxies in two groups from the MeerChoirs MeerKAT survey. I have also contributed to papers from the MAUVE programme on the Virgo cluster and from the WALLABY pilot survey on ASKAP ([Cortese et al. 2026](https://doi.org/10.1017/pasa.2026.10159); [Guimarães Silva et al. 2026](https://doi.org/10.3847/1538-4357/ae89b7)). In total, I have won over 90 hours of MeerKAT and SALT time as PI.
-
-<div>
-  <p class="read-more">
-    <a class="read-more-link" href="/meerrings">Click here to read more about MeerRings<span class="icon-arrow-right" aria-hidden="true"></span></a>
-  </p>
-</div>
-<div>
-  <p class="read-more">
-    <a class="read-more-link" href="/msc_thesis">Click here to read my MSc. thesis abstract and see some cool visualisations<span class="icon-arrow-right" aria-hidden="true"></span></a>
-  </p>
-</div>
-
-### Computing
-
-I have reduced MeerKAT data on two SKA Regional Centre prototypes, [ilifu](https://www.ilifu.ac.za/) in South Africa and [Setonix](https://pawsey.org.au/systems/setonix/) at the Pawsey Supercomputing Centre in Australia, using my modified version of the processMeerKAT pipeline. As a Pawsey summer intern, I benchmarked data transfer between Pawsey's Acacia object store and Setonix ([poster](https://www.youtube.com/watch?v=NMZY2zVEdrI)). Beyond my own programmes, I reduce MeerKAT data for several collaborations and single-source programmes. I run my simulations and analysis on high-performance computing systems and contribute to open-source astronomy software, including processMeerKAT, GaussPy+, baygaud-PI, and yt_astro_analysis.
-
-<div>
-  <p class="read-more">
-    <a class="read-more-link" href="/computing">Click here to read more about my data, software and computing work<span class="icon-arrow-right" aria-hidden="true"></span></a>
-  </p>
-</div>
-
 ### Where I started
 
-I entered astronomy from mechanical engineering, through quasar absorption-line spectroscopy with [Prof. Anand Narayanan](https://www.iist.ac.in/ess/anand) at the Indian Institute of Space Science and Technology (IIST). Using archival spectra from the Hubble Space Telescope and the Keck Observatory, I measured the density, temperature, and metallicity of multiphase gas around galaxies. This work produced three papers ([Pradeep, Sankar, et al. 2020](https://ui.adsabs.harvard.edu/abs/2020MNRAS.493..250P/abstract); [Sankar et al. 2020](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.4864S/abstract); [Sameer et al. 2022](https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.5796S/abstract)), and my first first-author paper is featured in C.W. Churchill's [*Quasar Absorption Lines*](https://www.qsoabslines.org) textbook.
-
-### Mentoring and community
-
-I have supervised six students, from undergraduate to PhD level, at IIST, the University of Kerala, and SAAO/UCT. I supervise with a flat hierarchy and open communication, and I enjoy passing on what I have learnt to students who would otherwise have little access to frontier research. At ICRAR, I am a student representative; in Cape Town, I founded the [Green SAAO](/sideprojects/greensaao/) sustainability movement, organised the extragalactic discussion group, represented postgraduate students, and volunteered for public outreach.
+I came to astronomy from mechanical engineering, through quasar absorption-line spectroscopy with [Prof. Anand Narayanan](https://www.iist.ac.in/ess/anand) at the Indian Institute of Space Science and Technology, radio interferometry at the South African Astronomical Observatory and the University of Cape Town, and hydrodynamic simulations at Tel Aviv University. My PhD at ICRAR brings these together.
 
 ---
 
@@ -124,7 +82,7 @@ Aside from astrophysical research, I enjoy a range of activities such as: readin
 
 <div>
   <p class="read-more">
-    <a class="read-more-link" href="/sideprojects">Click here to read about some of my past side-projects<span class="icon-arrow-right" aria-hidden="true"></span></a>
+    <a class="read-more-link" href="/sideprojects">Click here to read about my community and outreach work<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
 I have filled this website with some of the poems that I have written over the years and some images from my gallery. I have also added some of the projects that I was able to bequeath life to through dedication and hard work. In other words, I am committing a small part of myself to a GitHub repository.
