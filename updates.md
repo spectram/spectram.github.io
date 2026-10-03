@@ -16,19 +16,67 @@ seo:
 img_path: images/updates-bg.jpg
 layout: page
 ---
-#### 2024
+#### 2026
 
-**Oct 2024**: 3 out of 8 MeerRings datasets reduced (6/17 tracks).
+
+**Sep 2026**: Guimarães Silva, Grossi, Gonçalves, Corbelli, Catinella, Deg, Holwerda, Ianjamasimanana, Leahy, Mancera Piña, **Sankar**, Spekkens, ur Rahman, Westmeier & Wong. "[WALLABY Pilot Survey: Blinded by the Light – Discovery of a Fourth Member in the ESO 179-013 System](https://doi.org/10.3847/1538-4357/ae89b7)". *ApJ* 1008(2), 235.
+**13 to 17 Jul 2026**: Presented at the [The Many Scales Of Galaxy Environments](https://astro.dur.ac.uk/ascona/) in Ascona, Switzerland.
+
+**13 to 17 Jul 2026**: Talk "Hot accretion onto spiral galaxies: the origin of extended and warped HI discs" at [The Many Scales Of Galaxy Environments](https://astro.dur.ac.uk/ascona/), Ascona, Switzerland.
+
+**Jul 2026**: Raghav starts his MSc. project
+
+**Jul 2026**: Co-I on MeerKAT open-time proposal MKT-26212 "MeerIDIAN – Mapping the HI Disk–CGM Transition in Nearby Galaxies" (PI: E. de Blok; four 400 h observations, 1600 h total). Submitted.
+
+**2 Jun 2026**: "[Hot accretion onto spiral galaxies: the origin of extended and warped HI discs](https://doi.org/10.1093/mnras/stag1059)" (Sankar+2026a) accepted and published online.
+
+**May 2026**: Niladri completes his MSc. project with 88%
+
+**9 Apr 2026**: Talk "Hot accretion onto spiral galaxies: the origin of extended and warped HI discs" at the SKA Science Meeting, ICRAR, Perth.
+
+**6 Mar 2026**: Completed 2nd-year PhD milestone
+
+**Feb 2026**: Cortese, Watts, Sun, Sankar, Catinella, Brown, Boselli, Jáchym, Kolcu, Thater, van de Sande & Villanueva. "[MAUVE: Cold neutral gas in the outflow of NGC 4383 and evidence for a fountain flow](https://doi.org/10.1017/pasa.2026.10159)". *PASA* 43, e034 ([doi:10.1017/pasa.2026.10159]).
+
+**Feb 2026**: Pawsey Summer Internship completed (supervisors G. Orange & L. Edwards): benchmarked AWS CLI, s5cmd, rclone and Globus for Setonix–Acacia data transfers; [presented a poster at the virtual showcase](https://www.youtube.com/watch?v=NMZY2zVEdrI).
+
+**Jan 2026**: Suvajit starts his PhD at IIST
+
+#### 2025
+
+**24 Nov 2025**: Pawsey Summer Internship starts
+
+**May 2025**: Suvajit completes his MSc. project with an 'S' grade 
+
+**May 2025**: All MeerRings datasets reduced with custom modified processMeerKAT pipeline (17 tracks, 66 hours).
+
+**4 Mar 2025**: Completed 1st-year PhD milestone - Confirmation of candidature.
+
+#### 2024
 
 ##### **12 Nov 2024**: MeerKAT open-time proposal "The first multiphase study of star-formation driven outflows below the star-forming main sequence" gets allocated 15 hours at priority A.
 
+**Oct 2024**: SALT proposal led by Zara to characterise optical lines in AM0144−585 CRG gets allocated 11.34 hours P1 time.
+
+**17 Oct 2024**: Maneesha completes her MSc. project
+
 **4 Sep 2024**: Completed 6-month PhD milestone - Research Proposal.
+
+**Jun 2024**: Suvajit starts his MSc. project
+
+**26 Jun 2024**: Talk "Tracing anomalous gas across phases, galaxies, and environments" at the Astronomical Society of Australia (ASA) Hub Day.
 
 **2 to 7 Jun 2024**: Presented at the final ASTRO3D Science Legacy Meeting in Sydney.
 
-**May 2024**: MeerRings observations completed (7 targets, 15 tracks).
+**25 May 2024**: Archie completes her BSc. project with a perfect score
+
+**May 2024**: MeerRings observations completed (7 targets, 15 tracks, 55 hours).
 
 ##### **22 Feb 2024**: Moved to Perth and joined ICRAR/UWA as an ASTRO3D PhD Student.
+
+**Jan 2024**: Maneesha starts her MSc. project
+
+**Jan 2024**: Archie starts her BSc. project
 
 --- 
 
@@ -40,6 +88,8 @@ layout: page
 
 **25 Jul to 11 Sep 2023**: Visited Tel Aviv University to work on a research project with Dr. Jonathan Stern.
 
+**Jul 2023**: Colloquium "Anomalous gas safari: insights from MeerKAT's view of galaxy interactions" at SAAO.
+
 ##### **09 Jun 2023**: Submitted MSc. Thesis. 
 
 **27 to 31 Mar 2023**: Presented at the [meeting of the SKA Pathfinder HI Survey Coordination Committee (PHISCC 2023))](https://www.astro.rug.nl/~phiscc2023/index.php) in Cape Town.
@@ -48,11 +98,15 @@ layout: page
 
 #### 2022
 
+**Sep 2022**: Lunch talk "Neutral gas kinematics of interacting galaxies in two groups" at the Kapteyn Institute, Groningen.
+
 **19 to 23 Sep 2022**: Attended the [Ninth European Radio Interferometry School (ERIS 2022)](https://www.jive.eu/eris2022/index.php) at ASTRON & JIVE in the Netherlands.
 
 **12 to 16 Sep 2022**: Presented at the [What Matter(s) Around Galaxies (WMAG 2022)](https://sites.google.com/unimib.it/gas2022/home) conference in the Alps, Italy 
 
 **4 to 8 Jul 2022**: Won the best MSc oral presentation prize in the Astrophysics track at the [Annual Conference of the South African Institute of Physics (SAIP).](https://events.saip.org.za/event/225/overview)
+
+**2022**: Co-I on the MeerChoirs MeerKAT open-time program (50 h, 8 galaxy groups).
 
 **29 Mar to 1 Apr 2022**: Participated in 4-day [virtual workshop by STScI](https://www.stsci.edu/contents/events/stsci/2022/march/large-volume-spectroscopic-analyses-of-agn-and-star-forming-galaxies-in-the-era-of-jwst) that introduced the functionalities of various open-source spectroscopic analysis tools.
 
@@ -95,3 +149,5 @@ layout: page
 **06 Feb 2019**: Started working on QSO absorption line research projects with Prof. Anand Narayanan.
 
 **01 Nov 2018**: Started unofficially auditing astronomy lectures at IIST, Trivandrum. (the journey begins)
+
+**2017 - 2018**: Undergraduate leadership at FISAT: organised TEDxFISAT (Feb–Oct 2018), founding captain of MECHFISAT (department website and portfolio project), chairman of the ASME FISAT student section.
