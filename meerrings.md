@@ -51,8 +51,18 @@ math: true
 .mr-figure { background: #000; border-radius: 12px; padding: 0.8em; margin: 1.5em 0 0.6em; }
 .mr-figure img { width: 100%; height: auto; display: block; }
 .mr-caption { font-size: 0.9em; color: #666; text-align: center; margin: 0 0 2em; }
-.mr-goals { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.1em; margin: 1em 0 2.2em; }
-.mr-goal:last-child:nth-child(odd) { grid-column: 1 / -1; }
+/* Goal cards: 1 column, then 2 (last card full width), then 3 + 2 on wide content areas. */
+.mr-goals-wrap { container-type: inline-size; }
+.mr-goals { display: grid; grid-template-columns: 1fr; gap: 1.1em; margin: 1em 0 2.2em; }
+@container (min-width: 560px) {
+  .mr-goals { grid-template-columns: repeat(2, 1fr); }
+  .mr-goal:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+@container (min-width: 840px) {
+  .mr-goals { grid-template-columns: repeat(6, 1fr); }
+  .mr-goal { grid-column: span 2; }
+  .mr-goal:nth-child(n+4), .mr-goal:last-child:nth-child(odd) { grid-column: span 3; }
+}
 .mr-goal { border: 1px solid #e3e3e3; border-radius: 10px; padding: 1.1em 1.2em; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
 .mr-goal h4 { margin: 0 0 0.5em; font-size: 1.05em; color: #333; }
 .mr-goal h4 span { color: #1fa2ff; margin-right: 0.35em; }
@@ -78,7 +88,7 @@ math: true
 </div>
 
 <div class="mr-status">
-  <strong>Status:</strong> observations are complete for all seven new targets, and all 66 hours of data are reduced with a modified processMeerKAT pipeline on the ilifu cloud in South Africa, an SKA Regional Centre prototype. Analysis is under way.
+  <strong>Status:</strong> observations are complete for all seven new targets, and all 66 hours of data are reduced with a modified processMeerKAT pipeline on ilifu in South Africa, an SKA Regional Centre prototype. Analysis is under way.
 </div>
 
 ## Why collisional ring galaxies?
@@ -98,6 +108,7 @@ MeerKAT, the 64-dish precursor of SKA-Mid, reaches HI column densities at least 
 
 ## Science goals
 
+<div class="mr-goals-wrap">
 <div class="mr-goals">
   <div class="mr-goal">
     <h4><span>1</span>Census and environment</h4>
@@ -120,6 +131,7 @@ MeerKAT, the 64-dish precursor of SKA-Mid, reaches HI column densities at least 
     <p>Microjansky-level continuum images to map asymmetries and massive star formation, search for ageing electron populations behind the rings, look for polarised emission, and study cosmic-ray propagation in radio haloes.</p>
   </div>
 </div>
+</div>
 
 |![Figure taken from Higdon & Higdon (2010) showing a polychromatic view of two ring galaxies: (top) the Lindsay-Shapley ring galaxy and (bottom) the Cartwheel.](/images/sci/L-S+CW-Higdon2010.png)|
 |:--:|
@@ -128,7 +140,7 @@ MeerKAT, the 64-dish precursor of SKA-Mid, reaches HI column densities at least 
 ## Team
 
 <div class="mr-team">
-  <div class="mr-member lead"><span class="name">Sriram Sankar</span><span class="aff">PI and technical lead · ICRAR/UWA</span></div>
+  <div class="mr-member lead"><span class="name">Sriram Sankar*</span><span class="aff">PI and technical lead · ICRAR/UWA</span></div>
   <div class="mr-member"><span class="name">Moses Mogotsi</span><span class="aff">SAAO/SALT/UCT</span></div>
   <div class="mr-member"><span class="name">Chandra Murugeshan</span><span class="aff">AusSRC</span></div>
   <div class="mr-member"><span class="name">Curtis Struck</span><span class="aff">Iowa State University</span></div>
@@ -144,7 +156,7 @@ MeerKAT, the 64-dish precursor of SKA-Mid, reaches HI column densities at least 
   <div class="mr-member"><span class="name">Anand Narayanan</span><span class="aff">IIST</span></div>
   <div class="mr-member"><span class="name">Jordan Collier</span><span class="aff">AusSRC</span></div>
   <div class="mr-member"><span class="name">Marco Grossi</span><span class="aff">Valongo Observatory/UFRJ</span></div>
-  <div class="mr-member"><span class="name">Rayssa Guimarães Silva</span><span class="aff">Valongo Observatory/UFRJ</span></div>
+  <div class="mr-member"><span class="name">Rayssa Guimarães Silva*</span><span class="aff">Valongo Observatory/UFRJ</span></div>
   <div class="mr-member"><span class="name">Suvajit Sardar*</span><span class="aff">IIST</span></div>
   <div class="mr-member"><span class="name">Reshoketswe Thobejane*</span><span class="aff">SAAO</span></div>
   <div class="mr-member"><span class="name">Raghav Vyas*</span><span class="aff">IIST</span></div>

@@ -47,7 +47,7 @@ The 21 cm emission of neutral hydrogen (HI) traces this interface. HI discs exte
 ---
 
 ### Theory: a physical origin for extended, warped HI discs
-***with Jonathan Stern (Tel Aviv University)***
+***with Jonathan Stern (TAU)***
 
 The outer HI discs of spirals are almost always warped ([García-Ruiz et al. 2002](https://doi.org/10.1051/0004-6361:20020976)), but what drives the warps, and why they last, has not been established. Building on [Stern et al. (2024)](https://doi.org/10.1093/mnras/stae824), who showed that hot, rotating CGM inflows flatten into a disc geometry and cool at the disc–halo interface, I combined analytic calculations with idealised hydrodynamic simulations run with GIZMO. The inner hot (~10<sup>6</sup> K) atmosphere of a galaxy continuously condenses onto its cool (~10<sup>4</sup> K) disc, and a tilt between the spin of the atmosphere and the disc produces an extended, warped outer HI disc ([Sankar et al. 2026a, *MNRAS* 549, stag1059](https://doi.org/10.1093/mnras/stag1059)). The mechanism accounts for the ubiquity and longevity of warps and for the scarcity of cool gas in the inner CGM ([Marasco et al. 2025](https://doi.org/10.1051/0004-6361/202453172)). It also turns a warp into a measurement: the outer HI encodes the angular momentum and accretion rate of the hot atmosphere.
 
@@ -58,7 +58,7 @@ The outer HI discs of spirals are almost always warped ([García-Ruiz et al. 200
 ---
 
 ### Forward modelling: how much anomalous gas do observations recover?
-***with Chris Power, Barbara Catinella, Jonathan Stern, and the FIRE collaboration***
+***with Chris Power (ICRAR), Barbara Catinella (ICRAR), and Jonathan Stern (TAU)***
 
 Testing an accretion model against resolved HI first requires knowing how much of the predicted gas an observation recovers. I measured this for six Milky Way-mass galaxies from the FIRE-2 cosmological zoom-in simulations, whose accretion follows the hot-mode picture above ([Hafen et al. 2022](https://doi.org/10.1093/mnras/stac1603); [Sultan et al. 2026](https://doi.org/10.1093/mnras/stag1117)). Two observationally motivated definitions of anomalous gas, a geometric one (gas more than twice the scale height above the disc) and a kinematic one (how closely a gas element follows circular rotation), trace largely distinct gas and assign 12% to 49% of the HI mass to anomalous gas; only the kinematic selection isolates the coherent radial inflow.
 
@@ -67,7 +67,7 @@ I then forward-modelled each galaxy into survey-matched HI cubes, tracking the s
 ---
 
 ### Observations: anomalous gas in interacting galaxies
-***with Moses Mogotsi (SAAO), Matthew Bershady (UW-Madison), and the MeerChoirs and MeerRings collaborations***
+***with Moses Mogotsi (SAAO/UCT/SALT), Matthew Bershady (UW-Madison), and the MeerChoirs and MeerRings collaborations***
 
 Encounters between galaxies, whether collisions, fly-bys, or mergers, displace gas from the disc and leave signatures that HI traces well beyond the stars: tidal tails, bridges, warps, and anomalous gas. These signatures record the encounter geometry and timescale, and they show how the environment moves gas in and out of galaxies.
 
