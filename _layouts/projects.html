@@ -7,6 +7,14 @@ layout: default
 <div id="content" class="site-content">
   <main id="main" class="site-main inner">
 
+    <article class="post page post-full">
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+      </header>
+      {% if page.subtitle %}<div class="post-subtitle">{{ page.subtitle }}</div>{% endif %}
+      {% if content != "" %}<div class="post-content">{{ content }}</div>{% endif %}
+    </article>
+
     <div class="post-feed, page-feed">
       <article class="archive-feed">
         {% assign posts_sorted = site.sideprojects | sort: "date" | reverse %}
