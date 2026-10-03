@@ -2,12 +2,12 @@
 permalink: /research/
 title: Research Overview
 subtitle: >-
-  I employ multi-wavelength, multi-technique spectroscopic observations, kinematic modeling, and hydrodynamic simulations to study the connection between galaxy disks and multi-phase gas across environments.
+  I bridge hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas at the interface between their discs and the surrounding medium.
 img_path: images/research-bg.jpg
 tagline: Hoping to add a page to Humanity's book of the Cosmos
 seo:
   metatitle: Research Overview | Sriram Sankar
-  description: I employ multi-wavelength, multi-technique spectroscopic observations and idealized hydrodynamic simulations to study the crucial role of multi-phase gas in shaping galaxies.
+  description: I bridge hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas at the interface between their discs and the surrounding medium.
   extra:
     - name: 'og:type'
       value: website
@@ -17,7 +17,7 @@ seo:
       keyName: property
     - name: 'og:description'
       value: >-
-        I employ multi-wavelength, multi-technique spectroscopic observations and idealized hydrodynamic simulations to study the crucial role of multi-phase gas in shaping galaxies.
+        I bridge hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas at the interface between their discs and the surrounding medium.
       keyName: property
     - name: 'og:image'
       value: images/research-bg.jpg
@@ -29,7 +29,7 @@ seo:
       value: Research Overview | Sriram Sankar
     - name: 'twitter:description'
       value: >-
-        I employ multi-wavelength, multi-technique spectroscopic observations and idealized hydrodynamic simulations to study the crucial role of multi-phase gas in shaping galaxies.
+        I bridge hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas at the interface between their discs and the surrounding medium.
     - name: 'twitter:image'
       value: images/research-bg.jpg
       relativeUrl: true
@@ -37,86 +37,76 @@ layout: page
 math: true
 ---
 
-### The main questions of my work thus far are broadly:
 
-1. How do galaxies get gas? - Accretion modes, extraplanar gas, and disc-halo interface
-2. How do interactions shape galaxies? - Neutral gas kinematics and galaxy dynamics in groups
-3. What are the small-scale properties of multi-phase gas across environments? - QSO absorption line spectroscopy
+## How do galaxies get their gas?
 
-The link between these topics can be explored through the baryon cycle.
+Galaxies like the Milky Way would exhaust their gas within a few billion years, yet they have formed stars for much longer, so they must be refuelled ([Fraternali 2017](https://doi.org/10.1007/978-3-319-52512-9_14)). How that gas arrives sets the angular momentum it delivers, and with it how discs form, grow, and warp. Hot-mode accretion, cold flows, and galactic fountains have all been proposed, and the channels differ most at the interface between the disc and the surrounding circumgalactic medium (CGM).
 
-## What is the baryon cycle?
+The 21 cm emission of neutral hydrogen (HI) traces this interface. HI discs extend to about twice the stellar radius and are almost always warped, and around them sits anomalous gas: extraplanar, lagging, or non-circular emission that does not follow the rotating disc. Deep interferometers now detect anomalous HI routinely (e.g. [Healy et al. 2024](https://doi.org/10.1051/0004-6361/202347475); [Kurapati et al. 2025](https://doi.org/10.1093/mnras/staf387)), but a spectrum collapses rotation, non-circular motion, gas temperature, and line-of-sight position onto one velocity axis, so different physical processes can produce similar line profiles. My work bridges hydrodynamic simulations and resolved HI observations to connect what we see to the physics that produced it.
 
-Gas is a major part of galaxies, occupying a range of regions from the space between stars ([Interstellar Medium; ISM](https://en.wikipedia.org/wiki/Interstellar_medium)) to the outskirts ([Circumgalactic Medium; CGM](https://www.annualreviews.org/doi/10.1146/annurev-astro-091916-055240)). In groups, they occupy the Intra-Group Medium (IGrM) and in clusters, the [Intra-Cluster Medium (ICM)](https://en.wikipedia.org/wiki/Intracluster_medium). Outside these environments, they permeate the filamentary structures of the cosmic web ([Intergalactic Medium; IGM](https://www.britannica.com/science/intergalactic-medium)). These might seem like fancy names for the same thing, but the physical properties and origin of gas in these regions are diverse. For instance, one can easily appreciate that gas near galaxies will be more metal-enriched than gas in the IGM. Gas is essential for sustaining star formation and there are various ways in which galaxies obtain this fuel (accretion, mergers, interactions, etc.). The stars in the galaxies then leave their signatures in the gas during their lifetime. Subsequently, galaxies can be depleted of gas due to internal, hydrodynamic, and/or environmental factors.
+---
 
-The baryon cycle is a complex phenomenon that encapsulates all the ways in which gas gets perpetually processed in overdensities. From the infall of gas into galactic potentials, collapse into and processing by stars, outflow due to stellar and/or AGN feedback, and even "mixing" due to cooling. It can be thought of as the flow of multiphase gas within and between three broad settings: the ISM, the CGM, and the extended environment. These are important laboratories for studying a range of physical processes important for galaxy evolution and structure formation. However, gas exists in multiple phases ranging from cold dense molecular gas to hot diffuse ionized plasma, adding additional layers of complexity. We, therefore, employ clever multi-wavelength observational techniques to study the different phases of gas occupying the various mediums. 
+### Theory: a physical origin for extended, warped HI discs
+***with Jonathan Stern (Tel Aviv University)***
 
-**TLDR:** Gas in the universe = Multiple phases (temperature, density, volume, etc.) and occupy multiple regions (ISM, CGM, IGrM, ICM, IGM);
+The outer HI discs of spirals are almost always warped ([García-Ruiz et al. 2002](https://doi.org/10.1051/0004-6361:20020976)), but what drives the warps, and why they last, has not been established. Building on [Stern et al. (2024)](https://doi.org/10.1093/mnras/stae824), who showed that hot, rotating CGM inflows flatten into a disc geometry and cool at the disc–halo interface, I combined analytic calculations with idealised hydrodynamic simulations run with GIZMO. The inner hot (~10<sup>6</sup> K) atmosphere of a galaxy continuously condenses onto its cool (~10<sup>4</sup> K) disc, and a tilt between the spin of the atmosphere and the disc produces an extended, warped outer HI disc ([Sankar et al. 2026a, *MNRAS* 549, stag1059](https://doi.org/10.1093/mnras/stag1059)). The mechanism accounts for the ubiquity and longevity of warps and for the scarcity of cool gas in the inner CGM ([Marasco et al. 2025](https://doi.org/10.1051/0004-6361/202453172)). It also turns a warp into a measurement: the outer HI encodes the angular momentum and accretion rate of the hot atmosphere.
 
-**Workaround:** Employ statistical sampling and multi-wavelength observational techniques along with numerical simulations to study the complex density-phase structure and kinematics of gas in various systems. 
-For example, 
-+ CO in sub-mm to probe molecular gas
-+ HI 21 cm in radio to probe neutral gas 
-+ Emission lines like Halpha, [OIII], [NII], etc. in Optical/UV to probe cold and warm gas
-+ X-ray, radio continuum, tSZ effect in the microwave, FRBs, etc. to probe high energy processes and hot ionized plasma
-+ Absorption line spectroscopy of background sources (QSOs, GRBs, galaxies, lensed galaxies, etc.) to probe multiphase gas across environments and epochs.
+|![Temperature, HI column density, and line-of-sight velocity of a simulated galaxy accreting from a hot atmosphere tilted by 30 degrees relative to its disc](/images/sci/hot_accretion_warp.png)|
+|:--:|
+|*Hot-mode accretion onto a disc tilted by 30° produces an extended, warped HI disc. The panels show the gas temperature (left), HI column density (centre), and line-of-sight velocity (right) 3 Gyr into an idealised simulation, viewed edge-on. From [Sankar et al. (2026a)](https://doi.org/10.1093/mnras/stag1059).*|
 
---- 
+---
 
-### How do galaxies get gas? 
-#### Accretion, extraplanar gas, and disc-halo interface.
-***with Jonathan Stern (TAU)***
+### Forward modelling: how much anomalous gas do observations recover?
+***with Chris Power, Barbara Catinella, Jonathan Stern, and the FIRE collaboration***
 
-<div class="flex-container">
-    <div class="text">
-        <p>The 21cm neutral hydrogen emission (HI) in galaxies often extends to several times the radii and vertical scale height of the optical disc. HI thus holds the potential to trace accretion, interactions, and environmental effects. The extended gas distribution is far from a differentially rotating axisymmetric disc in hydrostatic equilibrium. The outer HI discs of spiral galaxies are known to be warped but the drivers and timescales of these warps are yet to be established. The gas above the disc known as Extraplanar gas (EPG) exhibits radial motions, vertical motions, and lagging rotation. The EPG can offer clues about accretion histories in the disc-halo interface but its origin is yet to be established. It has been shown that a fraction of the EPG originates from galactic fountains and the halo (see <a href="https://ui.adsabs.harvard.edu/abs/2017ASSL..430..323F/abstract">Fraternali et al. 2017</a> for a detailed discussion). Another fraction of the EPG is expected to have extragalactic origins such as interactions and accretion from the IGM. But detections of cold flow streams from the IGM still elude us and theoretically, it has been shown that cold gas evaporates before reaching the disc (e.g. <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.2351A/abstract">Afruni et al. 2023</a>). Recently, <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230600092S/abstract">Stern et al. 2023</a>, showed that hot accretion flows in the CGM flatten onto a disc geometry and cool to $10^4$ K at the disc-halo interface. I am working with Jonathan to explore the formation of warps and EPG under this framework. I employ analytic calculations, idealized hydrodynamic simulations, and comparisons with observations to study the <b>consequence of misaligned cooling flows in the circumgalactic medium</b>.</p>
-    </div>
-    <div class="image">
-        <img src="/images/sci/misaligned_acc_example.png" alt="A projection of a snapshot showing misaligned cooling flows producing HI warps.">
-        <p><em>A projection of a snapshot showing misaligned cooling flows producing HI warps. This is a work in progress and the simulation is a preliminary run.</em></p>
-    </div>
-</div>
+Testing an accretion model against resolved HI first requires knowing how much of the predicted gas an observation recovers. I measured this for six Milky Way-mass galaxies from the FIRE-2 cosmological zoom-in simulations, whose accretion follows the hot-mode picture above ([Hafen et al. 2022](https://doi.org/10.1093/mnras/stac1603); [Sultan et al. 2026](https://doi.org/10.1093/mnras/stag1117)). Two observationally motivated definitions of anomalous gas, a geometric one (gas more than twice the scale height above the disc) and a kinematic one (how closely a gas element follows circular rotation), trace largely distinct gas and assign 12% to 49% of the HI mass to anomalous gas; only the kinematic selection isolates the coherent radial inflow.
 
---- 
+I then forward-modelled each galaxy into survey-matched HI cubes, tracking the simulation particles behind every spectrum, and applied the standard peak-masking extraction (e.g. [Marasco et al. 2019](https://doi.org/10.1051/0004-6361/201936338)). After correcting for smeared disc emission, the extraction recovers only 4% to 13% of the true anomalous gas, less than 1% of the total HI. The shortfall depends on both the extraction method and the survey depth, so no single factor converts extracted emission into the underlying anomalous gas budget. Simulations and observations can therefore be compared only after the simulated galaxies pass through the same observing and extraction steps as the data (Sankar et al. 2026b, to be submitted to *MNRAS*).
 
-### How do interactions shape galaxies? 
-#### Neutral gas kinematics and galaxy dynamics in groups
-***with Moses Mogotsi (SAAO), Matthew Bershady (UW-Madison), MeerChoirs collaboration, MeerRings collaboration***
+---
 
-Encounters between galaxies can take the form of collisions, fly-bys, or mergers, with varying geometries between galaxies of different shapes and sizes. The outcomes of these interactions are determined by the encounter geometry, gas fractions, and masses of the galaxies involved. All of these factors can depend on the environment. HI offers the potential to study unique morphologies and gas flows generated by the interactions, as well as galaxy dynamics, encounter timescales, and the impact of the environment. 
+### Observations: anomalous gas in interacting galaxies
+***with Moses Mogotsi (SAAO), Matthew Bershady (UW-Madison), and the MeerChoirs and MeerRings collaborations***
+
+Encounters between galaxies, whether collisions, fly-bys, or mergers, displace gas from the disc and leave signatures that HI traces well beyond the stars: tidal tails, bridges, warps, and anomalous gas. These signatures record the encounter geometry and timescale, and they show how the environment moves gas in and out of galaxies.
 
 ##### MeerChoirs
-*PI: Moses Mogotsi, 2020 & 2022 Open Time accepted project*
+*PI: Moses Mogotsi, MeerKAT Open Time (2020 and 2022)*
 
-The MeerKAT campaign aims to study the impact of the group environment on galaxy evolution by mapping the cold gas in 15 nearby low-mass, late-type dominated, and gas-rich groups. The unparalleled combination of high sensitivity, resolution, and large field of view offered by MeerKAT makes it the optimal instrument to study HI in nearby galaxies and groups out to large radii, down to low column densities, and with a high resolution. As part of my MSc. dissertation, I developed a methodology to separate gas at anomalous velocities from HI discs using 3D tilted ring modeling, and physically motivated Gaussian decomposition and kinematic tagging. I applied the technique to characterize the HI distribution in two groups from the MeerChoirs survey. The analysis of the interactions (two major mergers and two minor mergers) revealed various intriguing phenomena, including anomalous gas, non-circular flows, disturbed rotation curves, warps, extraplanar gas, tidal tails and bridges. Using kinematic arguments to infer the motion of anomalous gas in the plane of the galaxies, I found indications of gas exchange between the interacting galaxies.
+MeerChoirs maps the HI in nearby low-mass, late-type dominated, gas-rich groups to study how the group environment shapes galaxy evolution. For my MSc dissertation, I developed a method that separates gas at anomalous velocities from HI discs using 3D tilted-ring modelling, physically motivated Gaussian decomposition, and kinematic tagging, and applied it to two groups. The four interactions in them, two major and two minor mergers, revealed anomalous gas, non-circular flows, disturbed rotation curves, warps, extraplanar gas, tidal tails, and bridges, and the motion of the anomalous gas in the plane of the galaxies indicated gas exchange between the interacting galaxies.
 <div>
   <p class="read-more">
-    <a class="read-more-link" href="/msc_thesis">Click here to read my MSc. thesis abstract and see some cool visualizations<span class="icon-arrow-right" aria-hidden="true"></span></a>
+    <a class="read-more-link" href="/msc_thesis">Click here to read my MSc. thesis abstract and see some cool visualisations<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
 
 ##### MeerRings
-*PI: Sriram Sankar, 2023 Open Time accepted project*
+*PI and technical lead: Sriram Sankar, MeerKAT Open Time (2023)*
 
-Collisional Ring Galaxies (CRGs) are an intriguing class of galaxies that are the results of the passage of an intruder galaxy through the disc of a target galaxy. Star formation in CRGs has been explored previously but the neutral gas has been studied only in a small subset of these rare sources. MeerRings aims to exploit the capabilities of MeerKAT to perform the first resolved, deep, and systematic census of the neutral gas in a considerable sample of CRGs. MeerKAT's high sensitivity will enable the detection of HI expelled to the environment and the extended HI discs of the galaxies. This program also represents the first systematic investigation of anomalous gas resulting from a well-known class of interactions. The versatility of HI in tracing various gravitational and hydrodynamical processes operating at different scales, along with MeerKAT's capabilities and the unique set of processes affecting CRGs, allows us to investigate several important physical phenomena in galaxy evolution. We will also study the continuum and polarisation images to extract information about star formation and magnetic field. This campaign is in its nascency and the observations are ongoing. We are currently discussing the timeline for the first paper exploring the properties of a well-known CRG. I am reducing the HI data for this source.
+Collisional ring galaxies form when an intruder galaxy passes through the disc of a target galaxy, and their star formation has been studied far more than their gas. MeerRings maps the HI and L-band continuum in eight of them, seven observed in 55 hours of new MeerKAT time and one from 11 hours of archival data. It is the first deep, resolved, and systematic HI census of a sample of collisional ring galaxies, and the first systematic study of the anomalous gas produced by a well-understood class of interaction. I reduced all 66 hours of data with my modified processMeerKAT pipeline on the ilifu cloud in South Africa.
 <div>
   <p class="read-more">
     <a class="read-more-link" href="/meerrings">Click here to read more about MeerRings<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
 
-#### Recent developments in Radio Astronomy
+##### Surveys and the multiphase view
 
-Radio astronomy offers a crucial view of several aspects of the universe, from fast radio bursts to the epoch of reionization. Unhindered by dust, atmospheric absorption, and sunlight, radio observations can be performed throughout the day from radio-quiet locations on Earth. The deluge of data from various modern radio telescopes, although a challenge, posits tremendous potential for discovery. However, with growing concerns about increasing Radio Frequency Interference (RFI) from satellite constellations, we are at a seminal moment in time. Several radio telescopes have come up or have undergone upgrades in recent years such as the JVLA, WSRT-Apertif, ASKAP, LOFAR, MWA, MeerKAT, FAST, uGMRT, etc. These allow us to survey vast volumes of the sky with a broad bandwidth and a range of sensitivities. This is just the beginning. With upcoming massive projects like the SKA, ngVLA, DSA, etc, our radio eyes will be sharper than ever before (albeit with bigger blind spots due to RFI). The future for the field looks exciting if we were to overlook the grim clouds that are looming over our heads. 
+HI is one phase of the gas cycle. With the [MAUVE](https://mauve.icrar.org) collaboration, which studies galaxies in the Virgo cluster, we found cold neutral gas in the star-formation-driven outflow of NGC 4383 and evidence for a fountain flow ([Cortese et al. 2026, *PASA* 43, e034](https://doi.org/10.1017/pasa.2026.10159)). The WALLABY pilot survey on ASKAP revealed a fourth member of the ESO 179-013 system ([Guimarães Silva et al. 2026, *ApJ* 1008, 235](https://doi.org/10.3847/1538-4357/ae89b7)). I also lead a 15-hour MeerKAT programme, awarded at priority A in 2024, titled "The first multiphase study of star-formation-driven outflows below the star-forming main sequence".
 
 ---
 
-### Small-scale properties of multi-phase gas across environments
-***with Anand Narayanan (IIST), Jane Charlton (PSU), late Blair Savage (UW-Madison), et al.***
+### Looking ahead: SKA-Mid
 
-Studying the small-scale properties of gas in different environments will offer clues to various open quandaries in galaxy evolution: On what scales are metals mixed? Do low and high ions have different coherence scales? How does cold gas exist in extreme environments? 
+SKA-Mid, under construction in South Africa's Karoo, will incorporate MeerKAT's dishes into a much larger array. Mapping the hydrogen reservoirs around galaxies, from which they draw gas to form stars, is a stated [SKAO science goal](https://www.skao.int/en/explore/science-goals/131/exploring-galaxy-evolution): SKA-Mid will reach the faint HI at the disc–CGM interface in far more galaxies, at higher resolution and over larger volumes than any precursor. Interpreting those data will take people who understand both the simulations and the observations, and the computing in between. I have spent my career so far building that combination, from analytic theory and hydrodynamic simulations to reducing MeerKAT data on SKA Regional Centre prototypes, and I am excited to put it to work on SKA-Mid.
 
-QSO absorption line spectroscopy uses background [Quasi-Stellar Objects (QSOs)](https://en.wikipedia.org/wiki/Quasar) as flashlights to look through dark foreground gas reservoirs. On the way to our telescopes, the light from the background source picks up ‘absorption signatures’ left by metals (ions) in the intervening gas. Thus “illuminating” the intervening non-luminous gas along the pencil beam. By analyzing the spectral imprints of the ions residing in the foreground gas reservoirs (ISM, CGM, IGrM, ICM, IGM) on the spectra of targeted background QSOs, we can study the physical and chemical properties of the foreground medium.
+---
+
+### Foundations: multiphase gas in absorption
+***with Anand Narayanan (IIST), Jane Charlton (PSU), the late Blair Savage (UW-Madison), et al.***
+
+My research began with quasar absorption-line spectroscopy. Background quasars act as flashlights: the light picks up absorption signatures from ions in the gas it passes through, revealing the physical and chemical state of otherwise invisible gas around and between galaxies.
 
 > Studying gas reservoirs using information conveyed by tiny ions through passerby messengers that were sent out across spacetime by distant luminous sources.
 
@@ -132,7 +122,7 @@ QSO absorption line spectroscopy uses background [Quasi-Stellar Objects (QSOs)](
 
 <div class="flex-container reverse">
   <div class="text">
-    In my first, first-author paper (<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.4864S/abstract">Sankar et al. 2020</a>), we utilized a series of diagnostic ions spanning a wide range of ionization energies (OII to OVI) to study a sample of five intermediate redshift absorbers likely tracing the CGM. We performed detailed component-by-component modeling of high-resolution UV-HST and Optical-Keck archival spectroscopic data to extract information on the small-scale metallicity-density-temperature structure of the clouds. We inferred nucleosynthetic yields that suggest a preferential enrichment from Type II SNe. Despite metal enrichment, we inferred a wide range for [O/H] in the absorbers suggesting poor small-scale mixing of metals with hydrogen. This work reports the lowest redshift intervening absorber with HeI detected, three systems with OV detected, and one system with NeV, NeVI detected along with OIII to OVI.
+    In my first, first-author paper (<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.4864S/abstract">Sankar et al. 2020</a>), we utilized a series of diagnostic ions spanning a wide range of ionization energies (OII to OVI) to study a sample of five intermediate redshift absorbers likely tracing the CGM. We performed detailed component-by-component modeling of high-resolution UV-HST and Optical-Keck archival spectroscopic data to extract information on the small-scale metallicity-density-temperature structure of the clouds. We inferred nucleosynthetic yields that suggest a preferential enrichment from Type II SNe. Despite metal enrichment, we inferred a wide range for [O/H] in the absorbers suggesting poor small-scale mixing of metals with hydrogen. This work reports the lowest redshift intervening absorber with HeI detected, three systems with OV detected, and one system with NeV, NeVI detected along with OIII to OVI. The paper is featured in C.W. Churchill's <a href="https://www.qsoabslines.org"><em>Quasar Absorption Lines</em></a> textbook as a first detailed view of OVI absorbers at z~1.
   </div>
   <div class="image">
     <img src="/images/sci/sankar+20_components.png" alt="Figure showing multi-component fits to absorption lines from Sankar+2020">
@@ -141,10 +131,6 @@ QSO absorption line spectroscopy uses background [Quasi-Stellar Objects (QSOs)](
 </div>
 
 In [Pradeep, Sankar, et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020MNRAS.493..250P/abstract) we report a low redshift, multiphase weak-MgII analog absorber that resides in an overdense environment with an ionization structure that is remarkably similar to that of Galactic high-velocity clouds. This work demonstrates the advantage of using weak low ionization absorbers as a means to study the CGM of external galaxies. 
-
-#### Recent developments in QSO absorption line
-
-QSO absorption line technique only allows us to probe a small area of the foreground structure, which limits our understanding of the properties of the entire gas reservoir. But when combined with statistics, we can obtain a wealth of information on the gas in a particular environment. Several works have explored multiple sightlines through the same medium to study the coherence scales of various parameters. However, due to the limited number of sightlines piercing through any particular structure, the sampling issues persist at large. Thanks to [Integral Field Spectroscopy (IFS)](https://en.wikipedia.org/wiki/Integral_field_spectrograph), we can now utilize extended structures such as [gravitationally lensed](https://www.science.org.au/curious/space-time/gravitational-lensing) sources, galaxies, etc. as background objects. IFS provides a spectrum for each pixel in our 2D field and thus provides 3D information on the target. This is a major update to the 50-year-old absorption line method for studying gas.
 
 --- 
 
