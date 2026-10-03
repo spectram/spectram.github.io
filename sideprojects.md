@@ -36,6 +36,7 @@ seo:
     - name: 'twitter:image'
       value: images/projects-bg.jpg
       relativeUrl: true
+telescopes_gallery: true
 layout: projects
 ---
 

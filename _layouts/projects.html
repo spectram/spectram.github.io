@@ -47,6 +47,15 @@ layout: default
       </article><!-- .archive -->
     </div><!-- .post-feed -->
 
+    {% if page.telescopes_gallery %}
+    <article class="post page post-full">
+      <div class="post-content">
+        {% capture gallery %}{% include telescopes-gallery.md %}{% endcapture %}
+        {{ gallery | markdownify }}
+      </div>
+    </article>
+    {% endif %}
+
   </main><!-- .site-main -->
 
   {% include footer.html %}

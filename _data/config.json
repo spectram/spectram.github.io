@@ -21,23 +21,13 @@
                 "style": "link"
             },
             {
-                "label": "Publications",
-                "url": "/publications",
-                "style": "link"
-            },
-            {
-                "label": "Talks",
-                "url": "/talks",
-                "style": "link"
-            },
-            {
                 "label": "Computing",
                 "url": "/computing",
                 "style": "link"
             },
             {
-                "label": "Community",
-                "url": "/sideprojects",
+                "label": "Publications & Talks",
+                "url": "/publications",
                 "style": "link"
             },
             {
@@ -51,8 +41,8 @@
                 "style": "link"
             },
             {
-                "label": "Telescopes",
-                "url": "/telescopes",
+                "label": "Community",
+                "url": "/sideprojects",
                 "style": "link"
             },
             {
