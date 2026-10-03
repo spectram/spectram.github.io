@@ -1,23 +1,23 @@
 ---
 permalink: /publications/
-title: Publications
+title: Publications & Talks
 subtitle: >-
-  Papers on gas accretion, resolved HI, and the multiphase gas around galaxies, from analytic theory and hydrodynamic simulations to MeerKAT, ASKAP, HST, and Keck data.
+  Papers and talks on gas accretion, resolved HI, and the multiphase gas around galaxies, from analytic theory and hydrodynamic simulations to MeerKAT, ASKAP, HST, and Keck data.
 img_path: images/pub+cv-bg.jpg
 seo:
-  metatitle: Publications | Sriram Sankar
+  metatitle: Publications & Talks | Sriram Sankar
   description: >-
-    Publications by Sriram Sankar on gas accretion, resolved HI 21 cm observations, and the multiphase gas around galaxies.
+    Publications and talks by Sriram Sankar on gas accretion, resolved HI 21 cm observations, and the multiphase gas around galaxies.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Publications | Sriram Sankar
+      value: Publications & Talks | Sriram Sankar
       keyName: property
     - name: 'og:description'
       value: >-
-        Publications by Sriram Sankar on gas accretion, resolved HI 21 cm observations, and the multiphase gas around galaxies.
+        Publications and talks by Sriram Sankar on gas accretion, resolved HI 21 cm observations, and the multiphase gas around galaxies.
       keyName: property
     - name: 'og:image'
       value: images/sci/hot_accretion_warp.png
@@ -26,10 +26,10 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Publications | Sriram Sankar
+      value: Publications & Talks | Sriram Sankar
     - name: 'twitter:description'
       value: >-
-        Publications by Sriram Sankar on gas accretion, resolved HI 21 cm observations, and the multiphase gas around galaxies.
+        Publications and talks by Sriram Sankar on gas accretion, resolved HI 21 cm observations, and the multiphase gas around galaxies.
     - name: 'twitter:image'
       value: images/sci/hot_accretion_warp.png
       relativeUrl: true
@@ -71,6 +71,25 @@ layout: page
 {% for p in pubs.papers %}{% if p.status != "refereed" %}
   <li>{{ p.authors }}, “<span class="title">{{ p.title }}</span>” <span class="sr-pill">{{ p.status_label }}</span>{% if p.role %}<span class="role">{{ p.role }}</span>{% endif %}</li>
 {% endif %}{% endfor %}
+</ul>
+
+{% assign t = site.data.talks %}
+
+## Talks and posters {#talks}
+
+<ul class="sr-list">
+{% for x in t.talks %}
+  <li><span class="sr-meta">{{ x.date }} · {{ x.type }}</span><br>
+  <span class="title">{{ x.title }}</span>{% if x.event %}<br>{% if x.event_url %}<a href="{{ x.event_url }}">{{ x.event }}</a>{% else %}{{ x.event }}{% endif %}{% if x.place %}, {{ x.place }}{% endif %}{% endif %}{% for l in x.links %} · <a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</li>
+{% endfor %}
+</ul>
+
+## Schools and workshops
+
+<ul class="sr-list">
+{% for sc in t.schools %}
+  <li><a class="title" href="{{ sc.url }}">{{ sc.name }}</a><br><span class="sr-meta">{{ sc.detail }}</span></li>
+{% endfor %}
 </ul>
 
 Telescope proposals and the full CV are on the [Contact & CV](/contact/) page.

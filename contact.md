@@ -49,7 +49,7 @@ I am happy to hear from you about collaborations, HI and MeerKAT data, or my res
   <div class="sr-card">
     <h4>Profiles</h4>
     <p><a href="https://orcid.org/0000-0002-7607-081X">ORCID</a> · <a href="https://ui.adsabs.harvard.edu/public-libraries/ub0UtPl-ROqyeY19srr0gg">ADS library</a><br><a href="https://github.com/spectram">GitHub</a> · <a href="https://www.linkedin.com/in/sankarsriram">LinkedIn</a></p>
-    <p><a href="/publications/">Publications</a> · <a href="/talks/">Talks</a></p>
+    <p><a href="/publications/">Publications</a> · <a href="/publications/#talks">Talks</a></p>
   </div>
 </div>
 
