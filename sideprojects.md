@@ -36,7 +36,6 @@ seo:
     - name: 'twitter:image'
       value: images/projects-bg.jpg
       relativeUrl: true
-telescopes_gallery: true
 layout: projects
 ---
 
@@ -44,6 +43,7 @@ Alongside research, I have helped build the communities I work in:
 
 - **ICRAR, The University of Western Australia:** student representative; host of the Computational Theory Group.
 - **SAAO and the University of Cape Town:** founded the Green SAAO sustainability movement; formed the SAAO outreach volunteers club; organised the extragalactic discussion group; postgraduate student representative; volunteer with Astronomers for Planet Earth.
+- **Mentoring:** mentored six students, from undergraduate to PhD level, at IIST, the University of Kerala, and SAAO/UCT.
 - **Undergraduate, FISAT:** organised TEDxFISAT; chaired the ASME student section; founding captain of MECHFISAT, the department website and portfolio project.
 
 Some of these projects in more detail:
