@@ -48,6 +48,10 @@ sass:
     - color-functions
     - if-function
 
+# Jekyll skips dot-folders by default; publish the TDM opt-out file.
+include:
+  - .well-known
+
 exclude:
   - Gemfile
   - Gemfile.lock
