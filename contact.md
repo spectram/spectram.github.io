@@ -35,40 +35,23 @@ seo:
 layout: page
 ---
 
-<table>
-  <tr>
-    <th>International Centre for Radio Astronomy Research (ICRAR)</th>
-    <th>ARC Centre of Excellence for All Sky Astrophysics in 3 Dimensions (ASTRO 3D)</th>
-  </tr>
-  <tr>
-    <td>The University of Western Australia (UWA),</td>
-    <td> - </td>
-  </tr>
-  <tr>
-    <td>Crawley, WA 6009, Australia</td>
-    <td>Australia</td>
-  </tr>
-  <tr>
-    <td>sriram.sankar (at) icrar.org</td>
-    <td>sriram.sankar (at) research.uwa.edu.au</td>   
-  </tr>
-</table>
+I am happy to hear from you about collaborations, HI and MeerKAT data, or my research.
 
----
-
-##### Publications record
-
-[ADS library](https://ui.adsabs.harvard.edu/public-libraries/ub0UtPl-ROqyeY19srr0gg)
-<div style="padding-bottom:20px;">
-  <div>
-    <a href=" https://orcid.org/0000-0002-7607-081X ">
-      <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
-      https://orcid.org/0000-0002-7607-081X 
-    </a>
+<div class="sr-cards">
+  <div class="sr-card">
+    <h4>Email</h4>
+    <p>sriram.sankar (at) icrar.org<br>sriram.sankar (at) research.uwa.edu.au</p>
+  </div>
+  <div class="sr-card">
+    <h4>Address</h4>
+    <p>International Centre for Radio Astronomy Research (ICRAR)<br>The University of Western Australia<br>Crawley WA 6009, Australia</p>
+  </div>
+  <div class="sr-card">
+    <h4>Profiles</h4>
+    <p><a href="https://orcid.org/0000-0002-7607-081X">ORCID</a> · <a href="https://ui.adsabs.harvard.edu/public-libraries/ub0UtPl-ROqyeY19srr0gg">ADS library</a><br><a href="https://github.com/spectram">GitHub</a> · <a href="https://www.linkedin.com/in/sankarsriram">LinkedIn</a></p>
+    <p><a href="/publications/">Publications</a> · <a href="/talks/">Talks</a></p>
   </div>
 </div>
-
----
 
 ##### [CV (updated on 3 Oct 2026): download as PDF](/ssankar_cv.pdf)
 
