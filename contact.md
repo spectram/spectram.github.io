@@ -8,7 +8,7 @@ tagline: |-
 img_path: images/contact-bg.jpg
 seo:
   metatitle: Get in Touch | Sriram Sankar
-  description: Contact Sriram via email, and view his CV.
+  description: Contact Sriram Sankar, PhD candidate in HI astrophysics at ICRAR, and view his CV and publications.
   extra:
     - name: 'og:type'
       value: website
@@ -17,10 +17,10 @@ seo:
       value: Get in Touch with Sriram Sankar
       keyName: property
     - name: 'og:description'
-      value: Contact Sriram via email, and view his CV.
+      value: Contact Sriram Sankar, PhD candidate in HI astrophysics at ICRAR, and view his CV and publications.
       keyName: property
     - name: 'og:image'
-      value: images/contact.jpg
+      value: images/contact-bg.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -28,9 +28,9 @@ seo:
     - name: 'twitter:title'
       value: Get in Touch with Sriram Sankar
     - name: 'twitter:description'
-      value: Contact Sriram via email, and view his CV.
+      value: Contact Sriram Sankar, PhD candidate in HI astrophysics at ICRAR, and view his CV and publications.
     - name: 'twitter:image'
-      value: images/contact.jpg
+      value: images/contact-bg.jpg
       relativeUrl: true
 layout: page
 ---
@@ -70,10 +70,10 @@ layout: page
 
 ---
 
-##### [CV (updated on 26 Nov 2023) — download as PDF](/ssankar_Nov2023_cv.pdf)
+##### [CV (updated on 3 Oct 2026): download as PDF](/ssankar_cv.pdf)
 
 <div class="cv-embed">
-  <iframe src="/ssankar_Nov2023_cv.pdf" title="Sriram Sankar's CV" width="100%" height="900" style="border: none;">
-    <p>Your browser doesn't support embedded PDFs. <a href="/ssankar_Nov2023_cv.pdf">Download the CV</a> instead.</p>
+  <iframe src="/ssankar_cv.pdf" title="Sriram Sankar's CV" width="100%" height="900" style="border: none;">
+    <p>Your browser doesn't support embedded PDFs. <a href="/ssankar_cv.pdf">Download the CV</a> instead.</p>
   </iframe>
 </div>
