@@ -9,7 +9,7 @@ has_more_link: true
 more_link_text: Find out more
 img_path: images/home-bg.jpg
 seo:
-  metatitle: Astro-know-me | Sriram Sankar
+  metatitle: Sriram Sankar | HI astrophysics, simulations and SKA
   description: |-
     PhD candidate at ICRAR bridging hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas, looking ahead to SKA-Mid.
   extra:
@@ -17,7 +17,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Astro-know-me | Sriram Sankar
+      value: Sriram Sankar | HI astrophysics, simulations and SKA
       keyName: property
     - name: 'og:description'
       value: PhD candidate at ICRAR bridging hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas, looking ahead to SKA-Mid.
@@ -29,7 +29,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Astro-know-me | Sriram Sankar
+      value: Sriram Sankar | HI astrophysics, simulations and SKA
     - name: 'twitter:description'
       value: PhD candidate at ICRAR bridging hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas, looking ahead to SKA-Mid.
     - name: 'twitter:image'
@@ -38,13 +38,40 @@ seo:
 layout: page
 ---
 
+<p class="sr-lead">HI astrophysicist bridging simulations and MeerKAT observations, building toward SKA-Mid.</p>
+
+<div class="sr-stats">
+  <div class="sr-stat"><span class="num">6</span><span class="lbl">refereed papers</span></div>
+  <div class="sr-stat"><span class="num">5</span><span class="lbl">h-index</span></div>
+  <div class="sr-stat"><span class="num">90+ h</span><span class="lbl">of MeerKAT and SALT time won as PI</span></div>
+  <div class="sr-stat"><span class="num">2</span><span class="lbl">SKA Regional Centre prototypes used for MeerKAT data reduction</span></div>
+</div>
+
+<div class="sr-cards">
+  <div class="sr-card">
+    <h4>Theory and simulations</h4>
+    <p>Analytic models and idealised hydrodynamic simulations of hot-mode accretion, and forward models of FIRE-2 cosmological zoom-in galaxies.</p>
+    <p><a href="/research/">Research</a></p>
+  </div>
+  <div class="sr-card">
+    <h4>Resolved HI observations</h4>
+    <p>PI and technical lead of MeerRings on MeerKAT; HI kinematics and anomalous gas in interacting galaxies.</p>
+    <p><a href="/meerrings/">MeerRings</a></p>
+  </div>
+  <div class="sr-card">
+    <h4>SKA-ready computing</h4>
+    <p>MeerKAT data reduction on two SKA Regional Centre prototypes, and data-movement benchmarking at the Pawsey Supercomputing Centre.</p>
+    <p><a href="/computing/">Data, software and computing</a></p>
+  </div>
+</div>
+
 I am a PhD candidate at the International Centre for Radio Astronomy Research (ICRAR), The University of Western Australia, supported by an ASTRO 3D scholarship. I study how galaxies acquire the gas that sustains their star formation, using the 21 cm emission of neutral hydrogen (HI). My work bridges hydrodynamic simulations and resolved HI observations: I build physical models of how gas settles onto galaxy discs, carry simulated galaxies through to synthetic observations that match real surveys, and reduce and analyse MeerKAT data myself. I will submit my thesis in August 2027.
 
 Galaxies like the Milky Way would exhaust their gas within a few billion years, yet they have formed stars for much longer. The gas that refuels them passes through the interface between the disc and the surrounding circumgalactic medium (CGM), where HI appears as extended, warped outer discs and as anomalous gas: extraplanar, lagging, or non-circular emission that does not follow the rotating disc. Deep interferometers such as [MeerKAT](https://www.sarao.ac.za/science/meerkat/), a precursor of [SKA-Mid](https://www.skao.int/en/explore/telescopes/ska-mid), now reach this faint gas in nearby galaxies. SKA-Mid will map it in far more galaxies, at higher resolution and sensitivity, and I am excited to help turn those maps into an understanding of how galaxies grow.
 
 <div>
   <p class="read-more">
-    <a class="read-more-link" href="/contact">Click here to check out my publications list and CV<span class="icon-arrow-right" aria-hidden="true"></span></a>
+    <a class="read-more-link" href="/publications">Click here to check out my publications list<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
 
@@ -80,7 +107,13 @@ I am PI and technical lead of [**MeerRings**](/meerrings), a MeerKAT programme t
 
 ### Computing
 
-I have reduced MeerKAT data on two SKA Regional Centre prototypes, [ilifu](https://www.ilifu.ac.za/) in South Africa and [Setonix](https://pawsey.org.au/systems/setonix/) at the Pawsey Supercomputing Centre in Australia, using my modified version of the processMeerKAT pipeline. As a Pawsey summer intern, I benchmarked data transfer between Pawsey's Acacia object store and Setonix ([poster](https://www.youtube.com/watch?v=NMZY2zVEdrI)). I run my simulations and analysis on high-performance computing systems and contribute to open-source astronomy software, including processMeerKAT, GaussPy+, baygaud-PI, and yt_astro_analysis.
+I have reduced MeerKAT data on two SKA Regional Centre prototypes, [ilifu](https://www.ilifu.ac.za/) in South Africa and [Setonix](https://pawsey.org.au/systems/setonix/) at the Pawsey Supercomputing Centre in Australia, using my modified version of the processMeerKAT pipeline. As a Pawsey summer intern, I benchmarked data transfer between Pawsey's Acacia object store and Setonix ([poster](https://www.youtube.com/watch?v=NMZY2zVEdrI)). Beyond my own programmes, I reduce MeerKAT data for several collaborations and single-source programmes. I run my simulations and analysis on high-performance computing systems and contribute to open-source astronomy software, including processMeerKAT, GaussPy+, baygaud-PI, and yt_astro_analysis.
+
+<div>
+  <p class="read-more">
+    <a class="read-more-link" href="/computing">Click here to read more about my data, software and computing work<span class="icon-arrow-right" aria-hidden="true"></span></a>
+  </p>
+</div>
 
 ### Where I started
 

@@ -1,0 +1,124 @@
+// Reusable blocks for the research-facing pages (home, publications, talks,
+// computing, contact). Plain colours only: no Sass colour functions.
+
+$sr-accent: #1fa2ff;
+$sr-border: #e3e3e3;
+$sr-muted: #666;
+$sr-soft-bg: #fafafa;
+
+// One-line positioning statement under the page title.
+.sr-lead {
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: #333;
+  margin: 0 0 1.4em;
+  text-align: left;
+}
+
+// Row of key numbers.
+.sr-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+  margin: 0 0 2em;
+}
+.sr-stat {
+  border: 1px solid $sr-border;
+  border-top: 4px solid $sr-accent;
+  border-radius: 8px;
+  padding: 0.9em 1.1em;
+  background: $sr-soft-bg;
+  .num { display: block; font-size: 1.9em; font-weight: bold; color: $sr-accent; line-height: 1.1; }
+  .num a { border: 0; color: inherit; }
+  .lbl { display: block; font-size: 0.9em; color: #555; margin-top: 0.35em; line-height: 1.4; text-align: left; }
+}
+
+// Cards (home pillars, computing sections).
+.sr-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.1em;
+  margin: 0 0 2.2em;
+}
+.sr-card {
+  display: block;
+  border: 1px solid $sr-border;
+  border-radius: 10px;
+  padding: 1.1em 1.2em;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  h4 { margin: 0 0 0.5em; font-size: 1.05em; color: #333; }
+  p { margin: 0 0 0.6em; font-size: 0.95em; line-height: 1.55; text-align: left; }
+  p:last-child { margin-bottom: 0; }
+}
+
+// Small grey label (dates, venues, status).
+.sr-meta { font-size: 0.88em; color: $sr-muted; }
+
+// Status pill for publications.
+.sr-pill {
+  display: inline-block;
+  font-size: 0.78em;
+  line-height: 1.4;
+  padding: 0.1em 0.6em;
+  border-radius: 999px;
+  border: 1px solid $sr-accent;
+  color: #0b6fb3;
+  background: #f3faff;
+  margin-left: 0.3em;
+  white-space: nowrap;
+}
+
+// Publication and talk lists.
+.sr-list {
+  list-style: none;
+  margin: 0 0 2em;
+  padding: 0;
+  > li {
+    border-bottom: 1px dashed $sr-border;
+    padding: 0.9em 0;
+    margin: 0;
+    text-align: left;
+  }
+  > li:last-child { border-bottom: 0; }
+  .title { font-weight: bold; color: #333; }
+  .role { display: block; font-size: 0.9em; color: $sr-muted; margin-top: 0.3em; font-style: italic; }
+}
+
+// Highlighted first-author paper: figure beside text, stacked on narrow screens.
+.sr-highlight {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: 1.3em;
+  align-items: start;
+  border: 1px solid $sr-border;
+  border-radius: 10px;
+  padding: 1.1em;
+  margin: 0 0 1.4em;
+  img { width: 100%; height: auto; display: block; border-radius: 6px; }
+  p { margin: 0 0 0.6em; text-align: left; }
+}
+// Wide figures (e.g. three-panel plots) sit above the text instead of beside it.
+.sr-highlight.wide { grid-template-columns: 1fr; }
+.sr-highlight > a { border: 0; }
+@media (max-width: 800px) {
+  .sr-highlight { grid-template-columns: 1fr; }
+}
+
+// Simple tag list (software, systems).
+.sr-tags {
+  list-style: none;
+  padding: 0;
+  margin: 0.4em 0 1.4em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em;
+  li {
+    margin: 0;
+    padding: 0.2em 0.7em;
+    border: 1px solid $sr-border;
+    border-radius: 999px;
+    font-size: 0.88em;
+    background: $sr-soft-bg;
+  }
+}
