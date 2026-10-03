@@ -1,0 +1,92 @@
+# Publication list rendered by publications.md.
+# status: refereed | to-be-submitted | submitted | in-prep
+# Keep this repo free of anything not yet public: the repo itself is public.
+
+summary:
+  refereed: 6
+  h_index: 5
+  ads_library: https://ui.adsabs.harvard.edu/public-libraries/ub0UtPl-ROqyeY19srr0gg
+  orcid: https://orcid.org/0000-0002-7607-081X
+
+highlights:
+  - key: sankar2026a
+    heading: A physical origin for extended, warped HI discs
+    image: /images/sci/hot_accretion_warp.png
+    wide: true
+    image_alt: Temperature, HI column density and line-of-sight velocity of a simulated galaxy accreting from a tilted hot atmosphere
+    summary: >-
+      Using analytic calculations and idealised hydrodynamic simulations, I showed that the hot (~10<sup>6</sup> K)
+      atmosphere of a spiral galaxy continuously condenses onto a cool (~10<sup>4</sup> K) disc, and that a tilt between
+      the atmosphere and the disc produces an extended, warped outer HI disc. A measured warp therefore constrains the
+      angular momentum and accretion rate of the hot atmosphere.
+  - key: sankar2020
+    heading: The multiphase circumgalactic medium in absorption
+    image: /images/sci/sankar+20_components.png
+    image_alt: Multi-component fits to absorption lines from Sankar et al. 2020
+    summary: >-
+      Combining HST and Keck spectra across five ionisation stages of oxygen, I derived the density, temperature, and
+      metallicity of five absorbers around galaxies at intermediate redshift. The paper is featured in C.W. Churchill's
+      <a href="https://www.qsoabslines.org"><em>Quasar Absorption Lines</em></a> textbook as a first detailed view of
+      OVI absorbers at z~1.
+
+papers:
+  - key: sankar2026b
+    status: to-be-submitted
+    status_label: To be submitted to MNRAS (Oct 2026)
+    authors: <strong>S. Sankar</strong>, C. Power, B. Catinella, J. Stern
+    title: "Bridging simulations and HI observations at the disc-CGM interface: forward-modelling anomalous gas in FIRE-2 galaxies"
+    role: I selected the anomalous gas in the FIRE-2 galaxies, built the particle-tracked forward model and synthetic HI cubes, and led the analysis and writing.
+  - key: sardar
+    status: to-be-submitted
+    status_label: To be submitted (2026)
+    authors: S. Sardar, <strong>S. Sankar</strong>, A. Narayanan, K.M. Mogotsi, et al.
+    title: "MeerRings I: First HI detection, kinematics, and interaction history of the Sacred Mushroom collisional ring galaxy"
+    role: I am PI and technical lead of MeerRings and reduced all the data.
+  - key: meerchoirs1
+    status: to-be-submitted
+    status_label: To be submitted (2026)
+    authors: <strong>S. Sankar</strong> et al.
+    title: "MeerChoirs I: MeerKAT data reduction, group properties, and 3D tilted-ring models of the pre-merger group HIPASS J1403-06"
+  - key: meerchoirs2
+    status: in-prep
+    status_label: In preparation
+    authors: <strong>S. Sankar</strong> et al.
+    title: "MeerChoirs II: Gaussian decomposition and kinematic tagging of anomalous gas in the interacting pair Arp 271"
+  - key: sankar2026a
+    status: refereed
+    authors: <strong>S. Sankar</strong>, J. Stern, C. Power, B. Catinella, D. Fielding, C.-A. Faucher-Giguère, I. Sultan, M. Boylan-Kolchin, J. Bland-Hawthorn
+    title: "Hot accretion onto spiral galaxies: the origin of extended and warped HI discs"
+    venue: <em>MNRAS</em> 549, stag1059 (2026)
+    url: https://doi.org/10.1093/mnras/stag1059
+    role: I ran the idealised hydrodynamic simulations and the analytic calculations and led the analysis and writing.
+  - key: guimaraes2026
+    status: refereed
+    authors: R. Guimarães Silva, M. Grossi, D.R. Gonçalves, …, <strong>S. Sankar</strong>, K. Spekkens, et al.
+    title: "WALLABY Pilot Survey: Blinded by the Light – Discovery of a Fourth Member in the ESO 179-013 System"
+    venue: <em>ApJ</em> 1008, 235 (2026)
+    url: https://doi.org/10.3847/1538-4357/ae89b7
+  - key: cortese2026
+    status: refereed
+    authors: L. Cortese, A.B. Watts, J. Sun, <strong>S. Sankar</strong>, B. Catinella, et al.
+    title: "MAUVE: Cold neutral gas in the outflow of NGC 4383 and evidence for a fountain flow"
+    venue: <em>PASA</em> 43, e034 (2026)
+    url: https://doi.org/10.1017/pasa.2026.10159
+  - key: sameer2022
+    status: refereed
+    authors: Sameer, J.C. Charlton, G.G. Kacprzak, A. Narayanan, <strong>S. Sankar</strong>, et al.
+    title: "Probing the physicochemical properties of the Leo Ring and the Leo I group"
+    venue: <em>MNRAS</em> 510, 5796 (2022)
+    url: https://doi.org/10.1093/mnras/stac052
+  - key: sankar2020
+    status: refereed
+    authors: <strong>S. Sankar</strong>, A. Narayanan, B.D. Savage, V. Khaire, B.E. Rosenwasser, J.C. Charlton, B.P. Wakker
+    title: "Physical conditions of five OVI absorption systems towards PG 1522+101"
+    venue: <em>MNRAS</em> 498, 4864 (2020)
+    url: https://doi.org/10.1093/mnras/staa2671
+    role: I carried out the multi-component profile fitting and ionisation modelling and led the analysis and writing.
+  - key: pradeep2020
+    status: refereed
+    authors: J. Pradeep, <strong>S. Sankar</strong>, T.M. Umasree, A. Narayanan, V. Khaire, M. Gebhardt, Sameer, J.C. Charlton
+    title: "Solar-metallicity gas in the extended halo of a galaxy at z~0.12"
+    venue: <em>MNRAS</em> 493, 250 (2020)
+    url: https://doi.org/10.1093/mnras/staa184
