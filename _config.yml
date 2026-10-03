@@ -39,6 +39,15 @@ social:
 plugins:
   - jekyll-sitemap
 
+# Jekyll 4 compiles Sass with Dart Sass. The theme's SCSS predates the Sass
+# module system, so silence those deprecation warnings until it is migrated.
+sass:
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - if-function
+
 exclude:
   - Gemfile
   - Gemfile.lock

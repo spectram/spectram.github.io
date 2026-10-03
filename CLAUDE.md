@@ -11,8 +11,9 @@ Sriram Sankar's personal academic/portfolio/blog site (sriramsankar.in), built w
 - Install deps: `bundle install`
 - Local dev server: `bundle exec jekyll serve` (add `--drafts` to include drafts)
 - Build only: `bundle exec jekyll build` — output goes to `_site/`
-- Uses the `github-pages` gem (see `Gemfile`), which pins Jekyll and plugin versions to match what GitHub Pages actually runs in production — don't add gems/plugins outside what that gem whitelists, or the GitHub-side build will diverge from local builds.
-- The `Gemfile` also explicitly pins `csv`/`base64`/`bigdecimal`/`logger`/`webrick` — Ruby 3.4+ dropped these from its default gems, but the `github-pages` gem's older pinned Jekyll still expects them present, so local builds fail without them.
+- Built and deployed by GitHub Actions (`.github/workflows/pages.yml`) with the Jekyll and Ruby versions in the `Gemfile` (Jekyll 4.4, Ruby 4.0), not the legacy `github-pages` gem, which is stuck on Jekyll 3.10 and does not resolve on Ruby 4.0. The repo's Pages setting must be Source: "GitHub Actions". Any Jekyll plugin can be added to the `Gemfile`; there is no whitelist any more.
+- The `Gemfile` also lists `csv`/`base64`/`bigdecimal`/`logger`/`webrick`: Ruby 3.4+ dropped these from its default gems, but Jekyll and its dependencies still require them.
+- Sass is compiled by Dart Sass (jekyll-sass-converter 3). The theme SCSS still uses `@import` and global colour functions, so `_config.yml` silences those deprecation warnings; migrating to `@use` would remove the need.
 - No test suite or linter exists in this repo.
 
 ## Architecture
