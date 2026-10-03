@@ -18,9 +18,7 @@ layout: page
 ---
 #### 2026
 
-
 **Sep 2026**: Guimarães Silva, Grossi, Gonçalves, Corbelli, Catinella, Deg, Holwerda, Ianjamasimanana, Leahy, Mancera Piña, **Sankar**, Spekkens, ur Rahman, Westmeier & Wong. "[WALLABY Pilot Survey: Blinded by the Light – Discovery of a Fourth Member in the ESO 179-013 System](https://doi.org/10.3847/1538-4357/ae89b7)". *ApJ* 1008(2), 235.
-**13 to 17 Jul 2026**: Presented at the [The Many Scales Of Galaxy Environments](https://astro.dur.ac.uk/ascona/) in Ascona, Switzerland.
 
 **13 to 17 Jul 2026**: Talk "Hot accretion onto spiral galaxies: the origin of extended and warped HI discs" at [The Many Scales Of Galaxy Environments](https://astro.dur.ac.uk/ascona/), Ascona, Switzerland.
 
@@ -36,9 +34,11 @@ layout: page
 
 **6 Mar 2026**: Completed 2nd-year PhD milestone
 
-**Feb 2026**: Cortese, Watts, Sun, Sankar, Catinella, Brown, Boselli, Jáchym, Kolcu, Thater, van de Sande & Villanueva. "[MAUVE: Cold neutral gas in the outflow of NGC 4383 and evidence for a fountain flow](https://doi.org/10.1017/pasa.2026.10159)". *PASA* 43, e034 ([doi:10.1017/pasa.2026.10159]).
+**Feb 2026**: Cortese, Watts, Sun, **Sankar**, Catinella, Brown, Boselli, Jáchym, Kolcu, Thater, van de Sande & Villanueva. "[MAUVE: Cold neutral gas in the outflow of NGC 4383 and evidence for a fountain flow](https://doi.org/10.1017/pasa.2026.10159)". *PASA* 43, e034.
 
 **Feb 2026**: Pawsey Summer Internship completed (supervisors G. Orange & L. Edwards): benchmarked AWS CLI, s5cmd, rclone and Globus for Setonix–Acacia data transfers; [presented a poster at the virtual showcase](https://www.youtube.com/watch?v=NMZY2zVEdrI).
+
+**Jan 2026**: Became an ICRAR Student Representative and host of the ICRAR Computational Theory Group.
 
 **Jan 2026**: Suvajit starts his PhD at IIST
 
