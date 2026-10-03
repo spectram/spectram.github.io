@@ -35,6 +35,10 @@ Sriram Sankar's personal academic/portfolio/blog site (sriramsankar.in), built w
 
 **KaTeX math rendering is opt-in per page** via a `math: true` front matter param (`msc_thesis.md`, `research.md`, `meerrings.md`); it conditionally includes `_includes/katex.html`, which pulls KaTeX from a CDN.
 
-**`contact.md` has no form** — it uses the plain `page` layout and embeds the CV PDF (`ssankar_Nov2023_cv.pdf`) directly via an `<iframe>` instead. There's no form backend/Formspree wiring in this repo; if a contact form gets reintroduced later, remember GitHub Pages can't run server-side form handling (the old Netlify Forms integration was removed during the Hugo→Jekyll migration).
+**`contact.md` has no form** — it uses the plain `page` layout and embeds the CV PDF (`ssankar_cv.pdf`) directly via an `<iframe>` instead. That PDF is built from `profile/ssankar2026_cv/2026-CV-web.tex` (a public variant of the master CV, outside this repo) and copied here. There's no form backend/Formspree wiring in this repo; if a contact form gets reintroduced later, remember GitHub Pages can't run server-side form handling (the old Netlify Forms integration was removed during the Hugo→Jekyll migration).
 
 **No CMS admin UI.** The old Netlify CMS (Decap) admin at `static/admin/` relied on Netlify Identity + git-gateway, neither of which exists on GitHub Pages, and was dropped rather than reconfigured. Content is edited directly as Markdown files in the repo (or via GitHub's web editor).
+
+## Public repo: nothing unpublished in the source
+
+This repository is public, so HTML comments (`<!-- -->`) and Liquid comments in pages are visible to anyone on GitHub, and HTML comments also ship in the rendered page source. Never park unsubmitted papers, in-prep results or unannounced plans here as commented-out text; keep them outside the repo (e.g. `profile/website_pending_updates.md`) until they are public.

@@ -11,7 +11,7 @@ img_path: images/home-bg.jpg
 seo:
   metatitle: Astro-know-me | Sriram Sankar
   description: |-
-    PhD candidate at ICRAR bridging hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas, in preparation for SKA-Mid.
+    PhD candidate at ICRAR bridging hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas, looking ahead to SKA-Mid.
   extra:
     - name: 'og:type'
       value: website
@@ -20,7 +20,7 @@ seo:
       value: Astro-know-me | Sriram Sankar
       keyName: property
     - name: 'og:description'
-      value: PhD candidate at ICRAR bridging hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas, in preparation for SKA-Mid.
+      value: PhD candidate at ICRAR bridging hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas, looking ahead to SKA-Mid.
       keyName: property
     - name: 'og:image'
       value: images/home-bg.jpg
@@ -31,7 +31,7 @@ seo:
     - name: 'twitter:title'
       value: Astro-know-me | Sriram Sankar
     - name: 'twitter:description'
-      value: PhD candidate at ICRAR bridging hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas, in preparation for SKA-Mid.
+      value: PhD candidate at ICRAR bridging hydrodynamic simulations and resolved HI 21 cm observations to study how galaxies acquire gas, looking ahead to SKA-Mid.
     - name: 'twitter:image'
       value: images/home-bg.jpg
       relativeUrl: true
