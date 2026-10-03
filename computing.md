@@ -36,11 +36,6 @@ seo:
 layout: page
 ---
 
-<div class="sr-stats">
-  <div class="sr-stat"><span class="num">66 h</span><span class="lbl">of MeerKAT data reduced for MeerRings</span></div>
-  <div class="sr-stat"><span class="num">2</span><span class="lbl">SKA Regional Centre prototypes: ilifu and Setonix</span></div>
-  <div class="sr-stat"><span class="num">4</span><span class="lbl">data-transfer tools benchmarked at Pawsey</span></div>
-</div>
 
 ## MeerKAT data on SKA Regional Centre prototypes
 
