@@ -20,7 +20,7 @@ seo:
         MeerKAT data reduction on SKA Regional Centre prototypes, a Pawsey Supercomputing Centre internship on research data workflows, simulations on HPC, and open-source software.
       keyName: property
     - name: 'og:image'
-      value: images/telescopes/sriram_mkt_2022.jpg
+      value: images/projects-bg.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'

@@ -76,16 +76,17 @@ I came to astronomy from mechanical engineering, through quasar absorption-line 
 
 ---
 
-### Fortunately, I am not just my work
+### Life without work
 
-Aside from astrophysical research, I enjoy a range of activities such as: reading philosophical novels; writing poetry; creating music; binging on - anime, sci-fi shows, and documentaries; outdoor activities such as gardening, hiking, and stargazing; and exploring open-source codes and cool software technologies. I also spend some time thinking about and working on climate action through personal lifestyle choices and pushing for systemic changes in my immediate environment.
+Beyond research, I enjoy a range of activities such as: travelling; reading philosophical novels; writing poetry; creating music (someday I will master piano); binging on - anime, sci-fi shows, and documentaries; outdoor activities including gardening, hiking, and stargazing; and exploring open-source codes and cool technologies. 
+<!-- I also spend some time thinking about and working on climate action through personal lifestyle choices and pushing for systemic changes in my immediate environment. -->
 
 <div>
   <p class="read-more">
     <a class="read-more-link" href="/sideprojects">Click here to read about my community and outreach work<span class="icon-arrow-right" aria-hidden="true"></span></a>
   </p>
 </div>
-I have filled this website with some of the poems that I have written over the years and some images from my gallery. I have also added some of the projects that I was able to bequeath life to through dedication and hard work. In other words, I am committing a small part of myself to a GitHub repository.
+I have filled this website with some of the poems that I have written over the years and some images from my gallery. I have also added some of the projects that I was able to bequeath life to through hard work. In other words, I am committing a small part of myself to a GitHub repository.
 <div>
   <p class="read-more">
     <a class="read-more-link" href="/thoughts">Click here to read some of my poetry<span class="icon-arrow-right" aria-hidden="true"></span></a>
