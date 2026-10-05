@@ -38,7 +38,7 @@ seo:
 layout: page
 ---
 
-<p class="sr-lead">Astrophysicist bridging simulations and HI observations with the computing to make it work at SKA scale. Hire me maybe?</p>
+<p class="sr-lead">Astrophysicist bridging simulations and observations with the computing to make it work at SKA scale. Hire me maybe?</p>
 
 <div class="sr-cards">
   <div class="sr-card">
