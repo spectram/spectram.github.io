@@ -110,15 +110,15 @@ layout: page
 
 **29 Mar to 1 Apr 2022**: Participated in 4-day [virtual workshop by STScI](https://www.stsci.edu/contents/events/stsci/2022/march/large-volume-spectroscopic-analyses-of-agn-and-star-forming-galaxies-in-the-era-of-jwst) that introduced the functionalities of various open-source spectroscopic analysis tools.
 
-**14 to 18 Mar 2022**: [Short presentation](https://ui.adsabs.harvard.edu/abs/2022afas.confE..64S/abstract) as part of the African Astronomical Society (AfAS) [annual conference](https://www.africanastronomicalsociety.org/afas2022-ga/).
+**14 to 18 Mar 2022**: [Short presentation](https://scixplorer.org/abs/2022afas.confE..64S/abstract) as part of the African Astronomical Society (AfAS) [annual conference](https://www.africanastronomicalsociety.org/afas2022-ga/).
 
-**05 Jan 2022**: Probing the physicochemical properties of the Leo Ring and the Leo I group. [Sameer et al. 2022](https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.5796S/abstract) accepted for publication in MNRAS. (5th Author)
+**05 Jan 2022**: Probing the physicochemical properties of the Leo Ring and the Leo I group. [Sameer et al. 2022](https://scixplorer.org/abs/2022MNRAS.510.5796S/abstract) accepted for publication in MNRAS. (5th Author)
 
 --- 
 
 #### 2021
 
-**30 Nov 2021**: Contributed to an Astronomers for Earth (A4E) article in Communicating Astronomy with the Public Journal as an [nth author](https://ui.adsabs.harvard.edu/abs/2021CAPJ...30...28F/abstract). 
+**30 Nov 2021**: Contributed to an Astronomers for Earth (A4E) article in Communicating Astronomy with the Public Journal as an [nth author](https://scixplorer.org/abs/2021CAPJ...30...28F/abstract). 
 
 ##### **17 Sep 2021**: Allocated ~ 21.4 hours P1 time on SALT 
 
@@ -136,9 +136,9 @@ layout: page
 
 ##### **16 Sep 2020**: Awarded the SALT-SAAO MSc Prize Scholarship 2021
 
-**21 Aug 2020**: Physical conditions of five OVI absorption systems towards PG 1522+101. [Sankar et al. 2020](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.4864S/abstract) accepted for publication in MNRAS.
+**21 Aug 2020**: Physical conditions of five OVI absorption systems towards PG 1522+101. [Sankar et al. 2020](https://scixplorer.org/abs/2020MNRAS.498.4864S/abstract) accepted for publication in MNRAS.
 
-**14 Jan 2020**: Solar Metalicity gas in the extended halo of a galaxy at z ~ 0.12. [Pradeep, Sankar, et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020MNRAS.493..250P/abstract) accepted for publication in MNRAS.
+**14 Jan 2020**: Solar Metalicity gas in the extended halo of a galaxy at z ~ 0.12. [Pradeep, Sankar, et al. (2020)](https://scixplorer.org/abs/2020MNRAS.493..250P/abstract) accepted for publication in MNRAS.
 
 --- 
 

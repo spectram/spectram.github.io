@@ -112,7 +112,7 @@ My research began with quasar absorption-line spectroscopy. Background quasars a
 
 <div class="flex-container">
     <div class="text">
-        <p>In <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.5796S/abstract">Sameer et al. 2022</a> (fifth author), we studied the physical and chemical properties of the Leo HI Ring and the Leo I Group using HST COS observations of 11 quasar sightlines spread over a $\sim 600 \times 800$ kpc$^2$ region. We coupled cloud-by-cloud, multiphase, Bayesian ionization modeling with galaxy property information to determine the plausible origin of the absorbing gas along these sightlines.</p>
+        <p>In <a href="https://scixplorer.org/abs/2022MNRAS.510.5796S/abstract">Sameer et al. 2022</a> (fifth author), we studied the physical and chemical properties of the Leo HI Ring and the Leo I Group using HST COS observations of 11 quasar sightlines spread over a $\sim 600 \times 800$ kpc$^2$ region. We coupled cloud-by-cloud, multiphase, Bayesian ionization modeling with galaxy property information to determine the plausible origin of the absorbing gas along these sightlines.</p>
     </div>
     <div class="image">
         <img src="/images/sci/sameer+22_leo_ring.png" alt="Figure showing sightlines close to the Leo Ring from Sameer+2022">
@@ -122,7 +122,7 @@ My research began with quasar absorption-line spectroscopy. Background quasars a
 
 <div class="flex-container reverse">
   <div class="text">
-    In my first, first-author paper (<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.4864S/abstract">Sankar et al. 2020</a>), we utilized a series of diagnostic ions spanning a wide range of ionization energies (OII to OVI) to study a sample of five intermediate redshift absorbers likely tracing the CGM. We performed detailed component-by-component modeling of high-resolution UV-HST and Optical-Keck archival spectroscopic data to extract information on the small-scale metallicity-density-temperature structure of the clouds. We inferred nucleosynthetic yields that suggest a preferential enrichment from Type II SNe. Despite metal enrichment, we inferred a wide range for [O/H] in the absorbers suggesting poor small-scale mixing of metals with hydrogen. This work reports the lowest redshift intervening absorber with HeI detected, three systems with OV detected, and one system with NeV, NeVI detected along with OIII to OVI. The paper is featured in C.W. Churchill's <a href="https://www.qsoabslines.org"><em>Quasar Absorption Lines</em></a> textbook as a first detailed view of OVI absorbers at z~1.
+    In my first, first-author paper (<a href="https://scixplorer.org/abs/2020MNRAS.498.4864S/abstract">Sankar et al. 2020</a>), we utilized a series of diagnostic ions spanning a wide range of ionization energies (OII to OVI) to study a sample of five intermediate redshift absorbers likely tracing the CGM. We performed detailed component-by-component modeling of high-resolution UV-HST and Optical-Keck archival spectroscopic data to extract information on the small-scale metallicity-density-temperature structure of the clouds. We inferred nucleosynthetic yields that suggest a preferential enrichment from Type II SNe. Despite metal enrichment, we inferred a wide range for [O/H] in the absorbers suggesting poor small-scale mixing of metals with hydrogen. This work reports the lowest redshift intervening absorber with HeI detected, three systems with OV detected, and one system with NeV, NeVI detected along with OIII to OVI. The paper is featured in C.W. Churchill's <a href="https://www.qsoabslines.org"><em>Quasar Absorption Lines</em></a> textbook as a first detailed view of OVI absorbers at z~1.
   </div>
   <div class="image">
     <img src="/images/sci/sankar+20_components.png" alt="Figure showing multi-component fits to absorption lines from Sankar+2020">
@@ -130,7 +130,7 @@ My research began with quasar absorption-line spectroscopy. Background quasars a
   </div>
 </div>
 
-In [Pradeep, Sankar, et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020MNRAS.493..250P/abstract) we report a low redshift, multiphase weak-MgII analog absorber that resides in an overdense environment with an ionization structure that is remarkably similar to that of Galactic high-velocity clouds. This work demonstrates the advantage of using weak low ionization absorbers as a means to study the CGM of external galaxies. 
+In [Pradeep, Sankar, et al. (2020)](https://scixplorer.org/abs/2020MNRAS.493..250P/abstract) we report a low redshift, multiphase weak-MgII analog absorber that resides in an overdense environment with an ionization structure that is remarkably similar to that of Galactic high-velocity clouds. This work demonstrates the advantage of using weak low ionization absorbers as a means to study the CGM of external galaxies. 
 
 --- 
 

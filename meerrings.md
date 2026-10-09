@@ -135,7 +135,7 @@ MeerKAT, the 64-dish precursor of SKA-Mid, reaches HI column densities at least 
 
 |![Figure taken from Higdon & Higdon (2010) showing a polychromatic view of two ring galaxies: (top) the Lindsay-Shapley ring galaxy and (bottom) the Cartwheel.](/images/sci/L-S+CW-Higdon2010.png)|
 |:--:|
-|*A multiwavelength view of two ring galaxies, the Lindsay-Shapley ring (top) and the Cartwheel (bottom), from <a href="https://ui.adsabs.harvard.edu/abs/2010ASPC..423...12H/abstract">Higdon & Higdon (2010)</a>. The fifth column shows the HI confined to the rings, with low-density gas filling the interior (<a href="https://ui.adsabs.harvard.edu/abs/1996ApJ...467..241H/abstract">Higdon 1996</a>; <a href="https://ui.adsabs.harvard.edu/abs/2011ApJ...739...97H/abstract">Higdon et al. 2011</a>). The HI is clearly asymmetric, and deeper observations of the extended disc can explore this much further.*|
+|*A multiwavelength view of two ring galaxies, the Lindsay-Shapley ring (top) and the Cartwheel (bottom), from <a href="https://scixplorer.org/abs/2010ASPC..423...12H/abstract">Higdon & Higdon (2010)</a>. The fifth column shows the HI confined to the rings, with low-density gas filling the interior (<a href="https://scixplorer.org/abs/1996ApJ...467..241H/abstract">Higdon 1996</a>; <a href="https://scixplorer.org/abs/2011ApJ...739...97H/abstract">Higdon et al. 2011</a>). The HI is clearly asymmetric, and deeper observations of the extended disc can explore this much further.*|
 
 ## Team
 

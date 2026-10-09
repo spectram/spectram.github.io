@@ -40,7 +40,7 @@ layout: page
 <div class="sr-stats">
   <div class="sr-stat"><span class="num">{{ pubs.summary.refereed }}</span><span class="lbl">refereed papers</span></div>
   <div class="sr-stat"><span class="num">{{ pubs.summary.h_index }}</span><span class="lbl">h-index (NASA ADS)</span></div>
-  <div class="sr-stat"><span class="num"><a href="{{ pubs.summary.ads_library }}">ADS</a></span><span class="lbl">full list in my <a href="{{ pubs.summary.ads_library }}">ADS library</a></span></div>
+  <div class="sr-stat"><span class="num"><a href="{{ pubs.summary.ads_library }}">SciX</a></span><span class="lbl">full list in my <a href="{{ pubs.summary.ads_library }}">SciX library</a></span></div>
   <div class="sr-stat"><span class="num"><a href="{{ pubs.summary.orcid }}">iD</a></span><span class="lbl"><a href="{{ pubs.summary.orcid }}">ORCID 0000-0002-7607-081X</a></span></div>
 </div>
 

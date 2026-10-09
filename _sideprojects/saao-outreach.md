@@ -54,7 +54,7 @@ We also cleaned the outreach telescopes and started maintaining them better.
 
 ## Talks and writing
 
-I gave an outreach talk, and as a volunteer with Astronomers for Planet Earth I was one of many contributors to an [article in the *Communicating Astronomy with the Public* journal](https://ui.adsabs.harvard.edu/abs/2021CAPJ...30...28F/abstract) (2021).
+I gave an outreach talk, and as a volunteer with Astronomers for Planet Earth I was one of many contributors to an [article in the *Communicating Astronomy with the Public* journal](https://scixplorer.org/abs/2021CAPJ...30...28F/abstract) (2021).
 
 ## Related
 
